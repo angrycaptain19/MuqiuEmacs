@@ -1,1 +1,0 @@
-("~/.emacs.d/" "~/workspace/Web/muqiu.gitee.io/" "~/workspace/Rust/guessing_game/" "~/workspace/C++/DEMO/Stack/" "~/.config/arco-dwm/")
