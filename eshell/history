@@ -1,0 +1,37 @@
+pil test.lisp 
+pil test.lisp 
+pil test.lisp 
+clear
+pil test.lisp 
+pil test.lisp 
+ls
+cd workspace/Rust/
+ls
+cargo new guessing_game
+ls
+cd guessing_game/ 
+clear
+ls
+cd src
+ls
+cd ..
+vi src/main.rs 
+ls
+cd ..
+cd ..
+cd guessing_game/ 
+clear
+cargo check
+cargo run
+clear
+cargo run
+cargo run
+clear
+cargo run
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run

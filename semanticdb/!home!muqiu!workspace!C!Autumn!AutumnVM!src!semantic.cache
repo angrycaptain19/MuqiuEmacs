@@ -1,0 +1,39 @@
+;; Object semanticdb-project-database-file-156a6cf552fc
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-156a6cf552fc"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-156a6cc6e288"
+      :major-mode c-mode
+      :tags 
+        '( ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [10 19])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [20 33]))                  
+                :type "int")
+                nil [1 49]))          
+      :file "main.c"
+      :pointmax 50
+      :fsize 49
+      :lastmodtime '(24565 30290 126744 367000)
+      :unmatched-syntax '((punctuation 10 . 11) (symbol 2 . 9) (punctuation 1 . 2) (symbol 2 . 9) (punctuation 1 . 2)))
+    (semanticdb-table "semanticdb-table-156a6cd624a4"
+      :major-mode c-mode
+      :tags 
+        '( ("../inc/register.h" include nil nil [1 29])
+            ("init_register" function
+               (:pointer 1
+                :type ("__register" type (:type "class") nil nil))
+                nil [31 64]))          
+      :file "register.c"
+      :pointmax 65
+      :fsize 64
+      :lastmodtime '(24565 31450 65884 333000)
+      :unmatched-syntax nil))
+  :file "!home!muqiu!workspace!C!Autumn!AutumnVM!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

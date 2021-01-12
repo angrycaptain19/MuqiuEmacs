@@ -1,0 +1,18 @@
+;; Object semanticdb-project-database-file-158156706c00
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-158156706c00"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-158156706c28"
+      :major-mode python-mode
+      :tags 
+        '( ("hy" include nil nil [1 10])
+            ("hy_socket" include nil nil [11 27]))          
+      :file "test.py"
+      :pointmax 28
+      :fsize 27
+      :lastmodtime '(24566 55294 38968 906000)
+      :unmatched-syntax nil))
+  :file "!home!muqiu!workspace!Python!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

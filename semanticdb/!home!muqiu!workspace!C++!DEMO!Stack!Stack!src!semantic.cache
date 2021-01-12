@@ -1,0 +1,485 @@
+;; Object semanticdb-project-database-file-155fd5d8f84c
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-155fd5d8f84c"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-155fd5d8f7ec"
+      :major-mode c++-mode
+      :tags 
+        '( ("_STACKOBJECTCOUNT_H_" variable (:constant-flag t) nil [38 58])
+            ("iostream" include (:system-flag t) nil [60 79])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [80 100])
+            ("Object" type
+               (:template 
+                  ( ("OBJECT_TYPE" type (:type "class") nil nil))                  
+                :type "class"
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [175 182])
+                    ("Object" function
+                       (:constructor-flag t
+                        :type ("Object" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [185 222])
+                    ("Object" function
+                       (:destructor-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [226 258])
+                    ("value" variable
+                       (:pointer 1
+                        :type ("OBJECT_TYPE" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [262 282])
+                    ("next" variable
+                       (:pointer 1
+                        :type ("Object" type
+                             (:template-specifier 
+                                ( ("OBJECT_TYPE" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol classsubparts) [285 312]))                  )
+                nil [132 315])
+            ("ObjectCount" type
+               (:template 
+                  ( ("OBJECT_TYPE" type (:type "class") nil nil))                  
+                :type "class"
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [407 414])
+                    ("ObjectCount" function
+                       (:constructor-flag t
+                        :type ("ObjectCount" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [418 491])
+                    ("add" function
+                       (:arguments 
+                          ( ("object" variable
+                               (:pointer 1
+                                :type ("OBJECT_TYPE" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [504 525]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [495 680])
+                    ("printSeqStackObjectList" function (:type "void") (reparse-symbol classsubparts) [684 901])
+                    ("quantity" variable
+                       (:typemodifiers ("static")
+                        :type "int")
+                        (reparse-symbol classsubparts) [905 925])
+                    ("head" variable
+                       (:pointer 1
+                        :type ("Object" type
+                             (:template-specifier 
+                                ( ("OBJECT_TYPE" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol classsubparts) [928 954]))                  )
+                nil [332 957])
+            ("quantity" variable
+               (:default-value "0"
+                :type "int")
+                nil [1019 1032]))          
+      :file "StackObjectCount.h"
+      :pointmax 1041
+      :fsize 1118
+      :lastmodtime '(24562 31528 179201 505000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_STACKOBJECTCOUNT_H_")
+          )
+)
+    (semanticdb-table "semanticdb-table-155fd5d8f80c"
+      :major-mode c++-mode
+      :tags 
+        '( ("STACK_H" variable (:constant-flag t) nil [25 32])
+            ("iostream" include (:system-flag t) nil [34 53])
+            ("cstdlib" include (:system-flag t) nil [54 72])
+            ("fstream" include (:system-flag t) nil [73 91])
+            ("StackObjectCount.h" include nil nil [92 121])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [123 143])
+            ("DEFAULT_SIZE" variable (:constant-flag t) nil [152 164])
+            ("stack" type
+               (:members 
+                  ( ("SeqStack" type
+                       (:template 
+                          ( ("STACK_TYPE" type (:type "class") nil nil))                          
+                        :type "class"
+                        :members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [269 276])
+                            ("SeqStack" function
+                               (:prototype-flag t
+                                :constructor-flag t
+                                :type ("SeqStack" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [282 293])
+                            ("SeqStack" function
+                               (:prototype-flag t
+                                :destructor-flag t
+                                :type "void")
+                                (reparse-symbol classsubparts) [298 310])
+                            ("SeqStack" function
+                               (:prototype-flag t
+                                :constructor-flag t
+                                :arguments 
+                                  ( ("size" variable (:type "int") (reparse-symbol arg-sub-list) [327 337]))                                  
+                                :type ("SeqStack" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [316 338])
+                            ("Push" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("v" variable (:type ("STACK_TYPE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [388 402]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [376 403])
+                            ("Pop" function
+                               (:prototype-flag t
+                                :type ("STACK_TYPE" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [425 442])
+                            ("remove" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("position" variable (:type "int") (reparse-symbol arg-sub-list) [477 491]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [463 492])
+                            ("find" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("value" variable (:type ("STACK_TYPE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [520 538]))                                  
+                                :type "int")
+                                (reparse-symbol classsubparts) [509 539])
+                            ("insert" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("position" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [574 596])
+                                    ("value" variable (:type ("STACK_TYPE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [597 615]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [560 616])
+                            ("size" function
+                               (:typemodifiers ("inline")
+                                :type "int")
+                                (reparse-symbol classsubparts) [640 686])
+                            ("<<" function
+                               (:operator-flag t
+                                :typemodifiers ("friend")
+                                :arguments 
+                                  ( ("output" variable
+                                       (:reference 1
+                                        :type ("ostream" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [738 755])
+                                    ("stack" variable
+                                       (:reference 1
+                                        :type ("SeqStack" type
+                                             (:template-specifier 
+                                                ( ("STACK_TYPE" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [756 786]))                                  
+                                :type ("ostream" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [707 940])
+                            (">>" function
+                               (:operator-flag t
+                                :typemodifiers ("friend")
+                                :arguments 
+                                  ( ("input" variable
+                                       (:reference 1
+                                        :type ("istream" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [994 1010])
+                                    ("stack" variable
+                                       (:reference 1
+                                        :type ("SeqStack" type
+                                             (:template-specifier 
+                                                ( ("STACK_TYPE" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [1011 1041]))                                  
+                                :type ("istream" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [963 1143])
+                            (">>" function
+                               (:operator-flag t
+                                :typemodifiers ("friend")
+                                :arguments 
+                                  ( ("input" variable
+                                       (:reference 1
+                                        :type ("ifstream" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1198 1215])
+                                    ("stack" variable
+                                       (:reference 1
+                                        :type ("SeqStack" type
+                                             (:template-specifier 
+                                                ( ("STACK_TYPE" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [1216 1246]))                                  
+                                :type ("ifstream" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [1166 1382])
+                            ("<<" function
+                               (:operator-flag t
+                                :typemodifiers ("friend")
+                                :arguments 
+                                  ( ("output" variable
+                                       (:reference 1
+                                        :type ("ofstream" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1437 1455])
+                                    ("stack" variable
+                                       (:reference 1
+                                        :type ("SeqStack" type
+                                             (:template-specifier 
+                                                ( ("STACK_TYPE" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [1456 1486]))                                  
+                                :type ("ofstream" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [1405 1614])
+                            ("printSeqStackObjectList" function
+                               (:typemodifiers ("static")
+                                :type "void")
+                                (reparse-symbol classsubparts) [1640 1827])
+                            ("stack_list" variable
+                               (:typemodifiers ("static")
+                                :type ("ObjectCount" type
+                                     (:template-specifier 
+                                        ( ("SeqStack" type (:template-specifier 
+                                            ( ("STACK_TYPE" type nil nil nil))                                            ) nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol classsubparts) [1833 1886])
+                            ("private" label nil (reparse-symbol classsubparts) [1890 1898])
+                            ("expansion" function
+                               (:prototype-flag t
+                                :type "void")
+                                (reparse-symbol classsubparts) [1903 1920])
+                            ("SeqStack" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("value" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("SeqStack" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1936 1960]))                                  
+                                :type ("SeqStack" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [1925 1963])
+                            ("=" function
+                               (:operator-flag t
+                                :constant-flag t
+                                :arguments 
+                                  ( ("rhs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("SeqStack" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1997 2019]))                                  
+                                :type ("SeqStack" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [1968 2037])
+                            ("value" variable
+                               (:pointer 1
+                                :type ("STACK_TYPE" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [2043 2061])
+                            ("capacity" variable (:type "int") (reparse-symbol classsubparts) [2066 2079])
+                            ("length" variable (:type "int") (reparse-symbol classsubparts) [2084 2095]))                          )
+                        (reparse-symbol namespacesubparts) [203 2100])
+                    ("SeqStack::stack_list" variable (:type ("ObjectCount" type
+                         (:template-specifier 
+                            ( ("SeqStack" type (:template-specifier 
+                                ( ("STACK_TYPE" type nil nil nil))                                ) nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [2104 2203])
+                    ("find" function
+                       (:template 
+                          ( ("STACK_TYPE" type (:type "class") nil nil))                          
+                        :type "int"
+                        :arguments 
+                          ( ("v" variable (:type ("STACK_TYPE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2271 2285]))                          
+                        :parent "SeqStack")
+                        (reparse-symbol namespacesubparts) [2207 2409])
+                    ("insert" function
+                       (:template 
+                          ( ("STACK_TYPE" type (:type "class") nil nil))                          
+                        :type "void"
+                        :arguments 
+                          ( ("position" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [2480 2502])
+                            ("v" variable (:type ("STACK_TYPE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2503 2517]))                          
+                        :parent "SeqStack")
+                        (reparse-symbol namespacesubparts) [2413 2683])
+                    ("remove" function
+                       (:template 
+                          ( ("STACK_TYPE" type (:type "class") nil nil))                          
+                        :type "void"
+                        :arguments 
+                          ( ("position" variable (:type "int") (reparse-symbol arg-sub-list) [2754 2768]))                          
+                        :parent "SeqStack")
+                        (reparse-symbol namespacesubparts) [2687 2940])
+                    ("SeqStack" function
+                       (:template 
+                          ( ("STACK_TYPE" type (:type "class") nil nil))                          
+                        :type ("SeqStack" type (:type "class") nil nil)
+                        :arguments 
+                          ( ("size" variable (:type "int") (reparse-symbol arg-sub-list) [3006 3016]))                          
+                        :parent "SeqStack"
+                        :constructor-flag t)
+                        (reparse-symbol namespacesubparts) [2944 3159])
+                    ("SeqStack" function
+                       (:template 
+                          ( ("STACK_TYPE" type (:type "class") nil nil))                          
+                        :type ("SeqStack" type (:type "class") nil nil)
+                        :parent "SeqStack"
+                        :constructor-flag t)
+                        (reparse-symbol namespacesubparts) [3163 3375])
+                    ("SeqStack" function
+                       (:template 
+                          ( ("STACK_TYPE" type (:type "class") nil nil))                          
+                        :type "void"
+                        :parent "SeqStack"
+                        :destructor-flag t)
+                        (reparse-symbol namespacesubparts) [3379 3465])
+                    ("expansion" function
+                       (:template 
+                          ( ("STACK_TYPE" type (:type "class") nil nil))                          
+                        :type "void"
+                        :parent "SeqStack")
+                        (reparse-symbol namespacesubparts) [3469 3641])
+                    ("Push" function
+                       (:template 
+                          ( ("STACK_TYPE" type (:type "class") nil nil))                          
+                        :type "void"
+                        :arguments 
+                          ( ("v" variable (:type ("STACK_TYPE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3706 3720]))                          
+                        :parent "SeqStack")
+                        (reparse-symbol namespacesubparts) [3645 3795])
+                    ("Pop" function
+                       (:template 
+                          ( ("STACK_TYPE" type (:type "class") nil nil))                          
+                        :type ("STACK_TYPE" type (:type "class") nil nil)
+                        :parent "SeqStack")
+                        (reparse-symbol namespacesubparts) [3799 3960]))                  
+                :type "namespace")
+                nil [182 3962])
+            ("custom_class" type
+               (:members 
+                  ( ("Integer" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [4022 4030])
+                            ("Integer" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("num" variable (:type "int") (reparse-symbol arg-sub-list) [4043 4051]))                                  
+                                :type ("Integer" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [4035 4067])
+                            ("Integer" function
+                               (:constructor-flag t
+                                :type ("Integer" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [4072 4084])
+                            ("value" variable (:type "int") (reparse-symbol classsubparts) [4089 4099])
+                            ("<<" function
+                               (:operator-flag t
+                                :typemodifiers ("friend")
+                                :arguments 
+                                  ( ("out" variable
+                                       (:reference 1
+                                        :type ("ostream" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4134 4148])
+                                    ("integer" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Integer" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4149 4173]))                                  
+                                :type ("ostream" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [4105 4227])
+                            (">>" function
+                               (:operator-flag t
+                                :typemodifiers ("friend")
+                                :arguments 
+                                  ( ("in" variable
+                                       (:reference 1
+                                        :type ("istream" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4262 4275])
+                                    ("integer" variable
+                                       (:reference 1
+                                        :type ("Integer" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4276 4294]))                                  
+                                :type ("istream" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [4233 4346])
+                            ("<<" function
+                               (:operator-flag t
+                                :typemodifiers ("friend")
+                                :arguments 
+                                  ( ("out" variable
+                                       (:reference 1
+                                        :type ("ofstream" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4382 4397])
+                                    ("integer" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Integer" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4398 4422]))                                  
+                                :type ("ofstream" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [4352 4476])
+                            (">>" function
+                               (:operator-flag t
+                                :typemodifiers ("friend")
+                                :arguments 
+                                  ( ("in" variable
+                                       (:reference 1
+                                        :type ("ifstream" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4512 4526])
+                                    ("integer" variable
+                                       (:reference 1
+                                        :type ("Integer" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4527 4545]))                                  
+                                :type ("ifstream" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [4482 4597])
+                            ("==" function
+                               (:operator-flag t
+                                :arguments 
+                                  ( ("num" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Integer" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4620 4640]))                                  
+                                :type "bool")
+                                (reparse-symbol classsubparts) [4603 4671])
+                            ("=" function
+                               (:operator-flag t
+                                :arguments 
+                                  ( ("num" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol arg-sub-list) [4692 4706]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [4676 4723]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [4004 4728]))                  
+                :type "namespace")
+                nil [3964 4732]))          
+      :file "Stack.h"
+      :pointmax 4751
+      :fsize 4976
+      :lastmodtime '(24564 23771 691334 835000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("STACK_H")
+          ("DEFAULT_SIZE" . ((number "10" 165 . 167)))
+          )
+)
+    (semanticdb-table "semanticdb-table-155fd5d8f82c"
+      :major-mode c++-mode
+      :tags 
+        '( ("Stack.h" include nil nil [1 19])
+            ("iostream" include (:system-flag t) nil [20 39])
+            ("fstream" include (:system-flag t) nil [40 58])
+            ("stack" using (:type ("stack" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [60 82])
+            ("custom_class" using (:type ("custom_class" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [83 112])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [113 133])
+            ("main" function (:type "int") nil [135 727]))          
+      :file "main.cpp"
+      :pointmax 728
+      :fsize 763
+      :lastmodtime '(24564 23836 471761 550000)
+      :unmatched-syntax nil))
+  :file "!home!muqiu!workspace!C++!DEMO!Stack!Stack!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

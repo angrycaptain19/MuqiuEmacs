@@ -1,0 +1,52 @@
+;; Object semanticdb-project-database-file-15653108d55c
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-15653108d55c"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-15653108d53c"
+      :major-mode js-mode
+      :tags nil
+      :file "index-script.js"
+      :pointmax 40
+      :fsize 39
+      :lastmodtime '(24567 34481 349586 106000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-156530e0d734"
+      :major-mode js-mode
+      :tags 
+        '( ("newDate" variable (:default-value "''") nil [1 18])
+            ("dateFilter" function (:arguments 
+              ( ("date" variable nil (reparse-symbol FormalParameterList) [54 58]))              ) nil [34 144])
+            ("getLangDate" function nil nil [146 1031]))          
+      :file "clock.js"
+      :pointmax 1032
+      :fsize 1357
+      :lastmodtime '(24553 16590 980477 442000)
+      :unmatched-syntax '((VARIABLE 19 . 30) (PAREN_BLOCK 30 . 32)))
+    (semanticdb-table "semanticdb-table-156530ecd72c"
+      :major-mode js-mode
+      :tags 
+        '( ("emacs" variable (:default-value "'[{\"Title\" : \"Org-Mode 简介\", \"Path\" : \"./page/Emacs/Org-Mode 简介.html\"},'") nil [1 164])
+            ("java" variable (:default-value "'[{\"Title\" : \"ObjectClass\", \"Path\" : \"./page/java/ObjectClass.html\"}]'") nil [166 252])
+            ("lisp" variable (:default-value "'[{\"Title\": \"Hunchentoot Abstract 1\", \"Path\" : \"./page/lisp/Hunchentoot Abstract 1.html\"},'") nil [254 689])
+            ("linux" variable (:default-value "'[]'") nil [690 707])
+            ("python" variable (:default-value "'[]'") nil [708 726])
+            ("c" variable (:default-value "'[]'") nil [727 740])
+            ("cpp" variable (:default-value "'[]'") nil [741 756])
+            ("mysql" variable (:default-value "'[]'") nil [757 774])
+            ("genArticleItem" function (:arguments 
+              ( ("title" variable nil (reparse-symbol FormalParameterList) [800 805])
+                ("path" variable nil (reparse-symbol FormalParameterList) [807 811]))              ) nil [776 938])
+            ("showArticlesList" function (:arguments 
+              ( ("articleList" variable nil (reparse-symbol FormalParameterList) [966 977]))              ) nil [940 1281])
+            ("loadNewArticle" function nil nil [1283 1850])
+            ("loadArticles" function (:arguments 
+              ( ("articleClass" variable nil (reparse-symbol FormalParameterList) [1874 1886]))              ) nil [1852 3015]))          
+      :file "load-articles.js"
+      :pointmax 3016
+      :fsize 3119
+      :lastmodtime '(24553 16590 980477 442000)
+      :unmatched-syntax nil))
+  :file "!home!muqiu!workspace!Web!muqiu.gitee.io!js!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

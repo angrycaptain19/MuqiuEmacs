@@ -1,0 +1,31 @@
+;; Object semanticdb-project-database-file-15794e8883dc
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-15794e8883dc"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-15794e0c139c"
+      :major-mode c++-mode
+      :tags 
+        '( ("vector" include (:system-flag t) nil [1 18])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [20 40])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [51 60])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [61 74]))                  
+                :type "int")
+                nil [42 143]))          
+      :file "demo_init_vector.cxx"
+      :pointmax 144
+      :fsize 143
+      :lastmodtime '(24569 44522 759820 72000)
+      :unmatched-syntax nil))
+  :file "!home!muqiu!workspace!C++!DEMO!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
