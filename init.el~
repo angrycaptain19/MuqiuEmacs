@@ -1,0 +1,106 @@
+
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
+
+(set-frame-font "Iosevka Medium 12")
+(add-to-list 'default-frame-alist '(fullscreen . maximized))
+(set-frame-parameter (selected-frame) 'alpha '(95 50))
+
+(setq package-archives '(("gnu"   . "http://elpa.emacs-china.org/gnu/")
+			 ("melpa" . "http://elpa.emacs-china.org/melpa/")))
+
+;; evil
+(require 'evil)
+(evil-mode t)
+(setq evil-insert-state-cursor 'outline-blank-line)
+
+;; company
+(require 'company)
+(global-company-mode t)
+
+;; doom-modeline
+(require 'doom-modeline)
+(doom-modeline-mode t)
+
+;; darhboard
+(require 'dashboard)
+(setq dashboard-banner-logo-title "Muqiu-Han Emacs")
+(setq dashboard-banner-official-png "~/.emacs.d/logo.png")
+(setq dashboard-center-content t)
+(setq dashboard-set-file-icons t)
+(setq dashboard-set-navigator t)
+(dashboard-setup-startup-hook)
+
+;; treemacs
+(global-set-key (kbd "C-c C-t") 'treemacs)
+
+;; web-mode
+(add-to-list 'auto-mode-alist '("\\.jsx$" "\\.html$" . 'web-mode))
+(add-hook 'web-mode-hook 'emmet-mode)
+
+;; org-mode
+(define-key org-mode-map (kbd "C-c C-h") 'org-html-export-to-html)
+(define-key org-mode-map (kbd "C-c C-m") 'org-md-export-to-markdown)
+
+;; window-numbering
+(window-numbering-mode t)
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(ansi-color-faces-vector
+   [default default default italic underline success warning error])
+ '(ansi-color-names-vector
+   ["black" "#d55e00" "#009e73" "#f8ec59" "#0072b2" "#cc79a7" "#56b4e9" "white"])
+ '(blink-cursor-mode nil)
+ '(column-number-mode t)
+ '(custom-enabled-themes '(doom-tomorrow-day))
+ '(custom-safe-themes
+   '("c83c095dd01cde64b631fb0fe5980587deec3834dc55144a6e78ff91ebc80b19" "7d708f0168f54b90fc91692811263c995bebb9f68b8b7525d0e2200da9bc903c" "6084dce7da6b7447dcb9f93a981284dc823bab54f801ebf8a8e362a5332d2753" "6c3b5f4391572c4176908bb30eddc1718344b8eaff50e162e36f271f6de015ca" "6b80b5b0762a814c62ce858e9d72745a05dd5fc66f821a1c5023b4f2a76bc910" "4bca89c1004e24981c840d3a32755bf859a6910c65b829d9441814000cf6c3d0" "af8c277f4aa7dab97fe4e2d5ae78d4d12de7364eb1e93a0d3e0739d10adc08b5" "7a994c16aa550678846e82edc8c9d6a7d39cc6564baaaacc305a3fdc0bd8725f" "e1ef2d5b8091f4953fe17b4ca3dd143d476c106e221d92ded38614266cea3c8b" "79278310dd6cacf2d2f491063c4ab8b129fee2a498e4c25912ddaa6c3c5b621e" "1623aa627fecd5877246f48199b8e2856647c99c6acdab506173f9bb8b0a41ac" "711efe8b1233f2cf52f338fd7f15ce11c836d0b6240a18fffffc2cbd5bfe61b0" "54cf3f8314ce89c4d7e20ae52f7ff0739efb458f4326a2ca075bf34bc0b4f499" "7b3d184d2955990e4df1162aeff6bfb4e1c3e822368f0359e15e2974235d9fa8" "aaa4c36ce00e572784d424554dcc9641c82d1155370770e231e10c649b59a074" "08a27c4cde8fcbb2869d71fdc9fa47ab7e4d31c27d40d59bf05729c4640ce834" "93ed23c504b202cf96ee591138b0012c295338f38046a1f3c14522d4a64d7308" "2f1518e906a8b60fac943d02ad415f1d8b3933a5a7f75e307e6e9a26ef5bf570" "4f01c1df1d203787560a67c1b295423174fd49934deb5e6789abd1e61dba9552" "99ea831ca79a916f1bd789de366b639d09811501e8c092c85b2cb7d697777f93" "b5fff23b86b3fd2dd2cc86aa3b27ee91513adaefeaa75adc8af35a45ffb6c499" "3c2f28c6ba2ad7373ea4c43f28fcf2eed14818ec9f0659b1c97d4e89c99e091e" "bf387180109d222aee6bb089db48ed38403a1e330c9ec69fe1f52460a8936b66" "e074be1c799b509f52870ee596a5977b519f6d269455b84ed998666cf6fc802a" "c086fe46209696a2d01752c0216ed72fd6faeabaaaa40db9fc1518abebaf700d" "5b809c3eae60da2af8a8cfba4e9e04b4d608cb49584cb5998f6e4a1c87c057c4" "71e5acf6053215f553036482f3340a5445aee364fb2e292c70d9175fb0cc8af7" "d74c5485d42ca4b7f3092e50db687600d0e16006d8fa335c69cf4f379dbd0eee" "be9645aaa8c11f76a10bcf36aaf83f54f4587ced1b9b679b55639c87404e2499" "d5a878172795c45441efcd84b20a14f553e7e96366a163f742b95d65a3f55d71" "9efb2d10bfb38fe7cd4586afb3e644d082cbcdb7435f3d1e8dd9413cbe5e61fc" "cae81b048b8bccb7308cdcb4a91e085b3c959401e74a0f125e7c5b173b916bf9" "01cf34eca93938925143f402c2e6141f03abb341f27d1c2dba3d50af9357ce70" "4a8d4375d90a7051115db94ed40e9abb2c0766e80e228ecad60e06b3b397acab" "d6603a129c32b716b3d3541fc0b6bfe83d0e07f1954ee64517aa62c9405a3441" "6c9cbcdfd0e373dc30197c5059f79c25c07035ff5d0cc42aa045614d3919dab4" "c4bdbbd52c8e07112d1bfd00fee22bf0f25e727e95623ecb20c4fa098b74c1bd" "f2927d7d87e8207fa9a0a003c0f222d45c948845de162c885bf6ad2a255babfd" "990e24b406787568c592db2b853aa65ecc2dcd08146c0d22293259d400174e37" "5036346b7b232c57f76e8fb72a9c0558174f87760113546d3a9838130f1cdb74" "74ba9ed7161a26bfe04580279b8cad163c00b802f54c574bfa5d924b99daa4b9" default))
+ '(display-battery-mode t)
+ '(display-time-mode t)
+ '(fci-rule-color "#a3a1a1")
+ '(fringe-mode 0 nil (fringe))
+ '(global-display-line-numbers-mode t)
+ '(jdee-db-active-breakpoint-face-colors (cons "#f2f2f2" "#4271ae"))
+ '(jdee-db-requested-breakpoint-face-colors (cons "#f2f2f2" "#718c00"))
+ '(jdee-db-spec-breakpoint-face-colors (cons "#f2f2f2" "#a5a4a5"))
+ '(menu-bar-mode nil)
+ '(objed-cursor-color "#c82829")
+ '(package-selected-packages
+   '(window-numbering light-soap-theme web-mode emmet-mode common-lisp-snippets slime calfw calfw-ical company company-c-headers company-shell dashboard doom-modeline doom-themes evil treemacs vterm))
+ '(pdf-view-midnight-colors (cons "#4d4d4c" "#ffffff"))
+ '(rustic-ansi-faces
+   ["#ffffff" "#c82829" "#718c00" "#eab700" "#3e999f" "#c9b4cf" "#8abeb7" "#4d4d4c"])
+ '(scroll-bar-mode nil)
+ '(size-indication-mode t)
+ '(tab-bar-mode t)
+ '(tool-bar-mode nil)
+ '(vc-annotate-background "#ffffff")
+ '(vc-annotate-color-map
+   (list
+    (cons 20 "#718c00")
+    (cons 40 "#999a00")
+    (cons 60 "#c1a800")
+    (cons 80 "#eab700")
+    (cons 100 "#eda70a")
+    (cons 120 "#f19714")
+    (cons 140 "#f5871f")
+    (cons 160 "#e69659")
+    (cons 180 "#d7a594")
+    (cons 200 "#c9b4cf")
+    (cons 220 "#c88597")
+    (cons 240 "#c85660")
+    (cons 260 "#c82829")
+    (cons 280 "#bf4748")
+    (cons 300 "#b66667")
+    (cons 320 "#ad8586")
+    (cons 340 "#a3a1a1")
+    (cons 360 "#a3a1a1")))
+ '(vc-annotate-very-old-color nil)
+ '(window-numbering-mode t))

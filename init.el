@@ -7,7 +7,7 @@
    [default default default italic underline success warning error])
  '(blink-cursor-mode nil)
  '(column-number-mode t)
- '(custom-enabled-themes '(doom-horizon doom-henna wombat))
+ '(custom-enabled-themes 'doom-tomorrow-day)
  '(custom-safe-themes
    '("5036346b7b232c57f76e8fb72a9c0558174f87760113546d3a9838130f1cdb74" "74ba9ed7161a26bfe04580279b8cad163c00b802f54c574bfa5d924b99daa4b9" default))
  '(display-battery-mode t)
@@ -30,9 +30,10 @@
 
 (set-frame-font "Iosevka Medium 12")
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
-(set-frame-parameter (selected-frame) 'alpha '(85 50))
+(set-frame-parameter (selected-frame) 'alpha '(100 50))
+
 (setq package-archives '(("gnu"   . "http://elpa.emacs-china.org/gnu/")
-                           ("melpa" . "http://elpa.emacs-china.org/melpa/")))
+			 ("melpa" . "http://elpa.emacs-china.org/melpa/")))
 
 ;; evil
 (require 'evil)
@@ -50,10 +51,23 @@
 ;; darhboard
 (require 'dashboard)
 (setq dashboard-banner-logo-title "Muqiu-Han Emacs")
-(setq dashboard-banner-official-png "~/.emacs.d/logo.png")
+(setq dashboard-banner-official-png "~/.emacs.d/logo-light.png")
 (setq dashboard-center-content t)
 (setq dashboard-set-file-icons t)
 (setq dashboard-set-navigator t)
 (dashboard-setup-startup-hook)
+
 ;; treemacs
 (global-set-key (kbd "C-c C-t") 'treemacs)
+
+;; web-mode
+(add-to-list 'auto-mode-alist '("\\.jsx$" "\\.html$" . 'web-mode))
+(add-hook 'web-mode-hook 'emmet-mode)
+
+;; org-mode
+(require 'org)
+(define-key org-mode-map (kbd "C-c C-h") 'org-html-export-to-html)
+(define-key org-mode-map (kbd "C-c C-m") 'org-md-export-to-markdown)
+
+;; window-numbering
+(window-numbering-mode t)
