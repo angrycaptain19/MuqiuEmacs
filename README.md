@@ -18,3 +18,13 @@ __C-c C-m__ 生成当前文件的markdown文件
 
 ## window-numbering
 __M-(1~9)__ 跳转到某个窗口
+
+## vterm
+__C-c C-v__ 全局快捷键打开vterm
+
+## lsp-mode支持
++ java
++ clojure
+
+## company-mode支持
++ cpp
