@@ -16,7 +16,7 @@
  '(global-display-line-numbers-mode t)
  '(menu-bar-mode nil)
  '(package-selected-packages
-   '(youdao-dictionary highlight-indent-guides highlight-parentheses company-lsp ob-hy python-mode hy-mode lsp-javacomp lsp-java cider clojure-mode company company-c-headers company-plisp company-shell dashboard doom-modeline doom-themes treemacs vterm))
+   '(youdao-dictionary popup google-translate use-package highlight-indent-guides highlight-parentheses company-lsp ob-hy python-mode hy-mode lsp-javacomp lsp-java cider clojure-mode company company-c-headers company-plisp company-shell dashboard doom-modeline doom-themes treemacs vterm))
  '(scroll-bar-mode nil)
  '(size-indication-mode t)
  '(tab-bar-mode t)
@@ -95,15 +95,20 @@
 (require 'highlight-indent-guides)
 (add-hook 'prog-mode-hook 'highlight-indent-guides-mode)
 (add-hook 'hy-mode-hook 'highlight-indent-guides-mode)
-(setq highlight-indent-guides-method 'character)
+(setq highlight-indent-guides-method 'character) ;; fill column  bitmap
 (setq highlight-indent-guides-delay 0)
 
-;; youdao-dictionary
-;; depend: popup
-(require 'youdao-dictionary)
-(global-set-key (kbd "\C-ct") 'youdao-dictionary-search-at-point+)
-
-;; hylang
-(require 'hy-mode)
-(define-key hy-mode-map (kbd "C-c C-b") 'hy-shell-eval-buffer)
-(define-key hy-mode-map (kbd "C-c C-f") 'hy-shell-eval-region)
+;; google-translate
+;; depend: use-package popup
+(require 'google-translate)
+(require 'google-translate-default-ui)
+(global-set-key "\C-ct" 'google-translate-at-point)
+(global-set-key "\C-cT" 'google-translate-query-translate)
+(global-set-key (kbd "C-c r") 'google-translate-at-point-reverse)
+(global-set-key (kbd "C-c R") 'google-translate-query-translate-reverse)
+(setq google-translate-default-source-language "en")
+(setq google-translate-default-target-language "zh-CN")
+(setq google-translate-base-url "http://translate.google.cn/translate_a/single")
+(setq google-translate-listen-url "http://translate.google.cn/translate_tts")
+(setq google-translate--tkk-url "http://translate.google.cn")
+(setq-default google-translate-enable-ido-completion t)
