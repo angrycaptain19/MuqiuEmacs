@@ -14,7 +14,7 @@
 3. 更改company提示，对hy提供支持
 4. hylang支持
 5. 高亮显示缩进线，括号
-6. Clojure Java的LSP-Mode只能提示
+6. Clojure Java的LSP-Mode
 7. 邮件收发
 8. git项目管理
 
