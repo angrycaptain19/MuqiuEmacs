@@ -16,7 +16,7 @@
  '(global-display-line-numbers-mode t)
  '(menu-bar-mode nil)
  '(package-selected-packages
-   '(youdao-dictionary highlight-indent-guides highlight-parentheses company-lsp ob-hy python-mode hy-mode lsp-javacomp lsp-java cider clojure-mode company company-c-headers company-plisp company-shell dashboard doom-modeline doom-themes treemacs vterm))
+   '(calfw calfw-ical youdao-dictionary engine-mode unicode-escape highlight-indent-guides highlight-parentheses company-lsp ob-hy python-mode hy-mode lsp-javacomp lsp-java cider clojure-mode company company-c-headers company-plisp company-shell dashboard doom-modeline doom-themes treemacs vterm))
  '(scroll-bar-mode nil)
  '(size-indication-mode t)
  '(tab-bar-mode t)
@@ -28,10 +28,22 @@
  ;; If there is more than one, they won't work right.
  )
 
+(setq package-archives '(("gnu"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
+                         ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")))
+(package-initialize)
+
 (set-frame-font "Iosevka Medium 12")
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
-(set-frame-parameter (selected-frame) 'alpha '(95 100))
-
+(defun screen-maximized ()
+  (interactive)
+  (x-send-client-message
+   nil 0 nil "_NET_WM_STATE" 32
+   '(2 "_NET_WM_STATE_MAXIMIZED_HORZ" 0))
+  (x-send-client-message
+   nil 0 nil "_NET_WM_STATE" 32
+   '(2 "_NET_WM_STATE_MAXIMIZED_VERT" 0))
+)
+(screen-maximized)
 (setq package-archives '(("gnu"   . "http://elpa.emacs-china.org/gnu/")
 			 ("melpa" . "http://elpa.emacs-china.org/melpa/")))
 
@@ -98,12 +110,21 @@
 (setq highlight-indent-guides-method 'character)
 (setq highlight-indent-guides-delay 0)
 
-;; youdao-dictionary
-;; depend: popup
-(require 'youdao-dictionary)
-(global-set-key (kbd "\C-ct") 'youdao-dictionary-search-at-point+)
-
 ;; hylang
 (require 'hy-mode)
 (define-key hy-mode-map (kbd "C-c C-b") 'hy-shell-eval-buffer)
 (define-key hy-mode-map (kbd "C-c C-f") 'hy-shell-eval-region)
+
+;; youdao
+(require 'youdao-dictionary)
+(setq url-automatic-caching t)
+(global-set-key (kbd "C-q") 'youdao-dictionary-search-at-point+)
+
+;; gnus
+(require 'gnus)
+(setq user-mail-address	"muqiu-han@outlook.com" ;; 这里使用你的邮件地址
+      user-full-name	"Muqiu-Han")  ;; 用户名
+(setq gnus-select-method '(nnimap "outlook.office365.com")) ;; 邮件服务器
+(setq send-mail-function 'smtpmail-send-it
+      message-send-mail-function 'smtpmail-send-it
+      smtpmail-smtp-server "smtp.office365.com")  ;; smtp服务器
