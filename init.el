@@ -16,7 +16,7 @@
  '(global-display-line-numbers-mode t)
  '(menu-bar-mode nil)
  '(package-selected-packages
-   '(calfw calfw-ical youdao-dictionary engine-mode unicode-escape highlight-indent-guides highlight-parentheses company-lsp ob-hy python-mode hy-mode lsp-javacomp lsp-java cider clojure-mode company company-c-headers company-plisp company-shell dashboard doom-modeline doom-themes treemacs vterm))
+   '(magit calfw calfw-ical youdao-dictionary engine-mode unicode-escape highlight-indent-guides highlight-parentheses company-lsp ob-hy python-mode hy-mode lsp-javacomp lsp-java cider clojure-mode company company-c-headers company-plisp company-shell dashboard doom-modeline doom-themes treemacs vterm))
  '(scroll-bar-mode nil)
  '(size-indication-mode t)
  '(tab-bar-mode t)
@@ -34,6 +34,8 @@
 
 (set-frame-font "Iosevka Medium 12")
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
+
+;; 启动自动最大化
 (defun screen-maximized ()
   (interactive)
   (x-send-client-message
@@ -44,8 +46,6 @@
    '(2 "_NET_WM_STATE_MAXIMIZED_VERT" 0))
 )
 (screen-maximized)
-(setq package-archives '(("gnu"   . "http://elpa.emacs-china.org/gnu/")
-			 ("melpa" . "http://elpa.emacs-china.org/melpa/")))
 
 ;; doom-modeline
 (require 'doom-modeline)
@@ -128,3 +128,14 @@
 (setq send-mail-function 'smtpmail-send-it
       message-send-mail-function 'smtpmail-send-it
       smtpmail-smtp-server "smtp.office365.com")  ;; smtp服务器
+
+;; 平滑滚动
+(setq mouse-wheel-scroll-amount '(1 ((shift) . 1)))
+(setq mouse-wheel-progressive-speed nil)
+(setq mouse-wheel-follow-mouse 't)
+(setq scroll-step 1)
+
+;; magit
+(require 'magit)
+(define-key magit-mode-map (kbd "\C-cs") 'magit-status)
+(global-set-key (kbd "\C-cg") 'magit-mode)

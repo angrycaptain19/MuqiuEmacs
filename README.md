@@ -1,7 +1,12 @@
-# MuQiuEmacs 1.0
+# MuQiuEmacs 4.0
 > 一份比较基础快速的Emacs配置
 > 最近更新: 2021-1-21
-> 版本: V2.0
+> 版本: V4.0
+
+## 更新信息
++ Magit
++ 平滑滚动
++ 邮件收发
 
 ## 基本功能: 
 1. 有道词典快捷翻译英文文档，阅读方便
@@ -11,6 +16,7 @@
 5. 高亮显示缩进线，括号
 6. Clojure Java的LSP-Mode只能提示
 7. 邮件收发
+8. git项目管理
 
 ## 安装
 
@@ -18,6 +24,18 @@
 cd ~
 git clone https://gitee.com/muqiu-han/emacs.d .emacs.d
 ```
+
+## gnus
+> 邮件客户端
++ <font color='red'>需要先到init.el 123行配置你的邮件相关信息</font>
++ __M-x gnus__ 打开
++ __C-x m__ 快速发送邮件
+
+## magit
+> git管理
++ __C-c g__ 打开magit-mode
++ __C-c s__ 在magit-mode内打开status
+
 ## Treemacs
 > 侧栏文件树
 + __C-x C-t__ 打开/关闭treemacs
