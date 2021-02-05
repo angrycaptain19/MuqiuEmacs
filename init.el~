@@ -16,7 +16,7 @@
  '(global-display-line-numbers-mode t)
  '(menu-bar-mode nil)
  '(package-selected-packages
-   '(magit calfw calfw-ical youdao-dictionary engine-mode unicode-escape highlight-indent-guides highlight-parentheses company-lsp ob-hy python-mode hy-mode lsp-javacomp lsp-java cider clojure-mode company company-c-headers company-plisp company-shell dashboard doom-modeline doom-themes treemacs vterm))
+   '(ccls magit calfw calfw-ical youdao-dictionary engine-mode unicode-escape highlight-indent-guides highlight-parentheses company-lsp ob-hy python-mode hy-mode lsp-javacomp lsp-java cider clojure-mode company company-c-headers company-plisp company-shell dashboard doom-modeline doom-themes treemacs vterm))
  '(scroll-bar-mode nil)
  '(size-indication-mode t)
  '(tab-bar-mode t)
@@ -32,7 +32,7 @@
                          ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")))
 (package-initialize)
 
-(set-frame-font "Iosevka Medium 12")
+(set-frame-font "Hack 13")
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
 
 ;; 启动自动最大化
@@ -84,10 +84,6 @@
 (require 'lsp-clojure)
 (add-hook 'clojure-mode-hook #'lsp)
 
-;; company-mode c and cpp
-(require 'company)
-(add-hook 'c-mode-hook #'company)
-(add-hook 'c++-mode-hook #'company)
 
 ;; company-mode
 (require 'company)
@@ -136,3 +132,6 @@
 (setq scroll-step 1)
 
 ;; magit
+(require 'magit)
+(define-key magit-mode-map (kbd "\C-cs") 'magit-status)
+(global-set-key (kbd "\C-cg") 'magit-mode)

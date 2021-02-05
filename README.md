@@ -1,5 +1,5 @@
 # MuQiuEmacs 4.0
-> 一份比较基础快速的Emacs配置
+> 一份比较基础实用的Emacs配置
 > 最近更新: 2021-1-21
 > 版本: V4.0
 
@@ -80,7 +80,7 @@ __支持语言:__
 ## youdao-dictionary
 > 有道翻译, 依赖popup
 
-+ 快捷键: __C-q__
++ 快捷键: 选中某个单词或者句子 __C-q__
 
 ## hylang
 > [github链接](https://github.com/hylang/hy) [文档链接](https://docs.hylang.org/en/stable/)
