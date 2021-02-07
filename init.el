@@ -16,7 +16,7 @@
  '(global-display-line-numbers-mode t)
  '(menu-bar-mode nil)
  '(package-selected-packages
-   '(cargo flycheck-rust rust-mode rustic org-clock-today ccls magit calfw calfw-ical youdao-dictionary engine-mode unicode-escape highlight-indent-guides highlight-parentheses company-lsp ob-hy python-mode hy-mode lsp-javacomp lsp-java cider clojure-mode company company-c-headers company-plisp company-shell dashboard doom-modeline doom-themes treemacs vterm))
+   '(all-the-icons-gnus treemacs-icons-dired sly-quicklisp sly powerline cargo flycheck-rust rust-mode rustic org-clock-today ccls magit calfw calfw-ical youdao-dictionary engine-mode unicode-escape highlight-indent-guides highlight-parentheses company-lsp ob-hy python-mode hy-mode lsp-javacomp lsp-java cider clojure-mode company company-c-headers company-plisp company-shell dashboard doom-themes treemacs vterm))
  '(scroll-bar-mode nil)
  '(size-indication-mode t)
  '(tab-bar-mode t)
@@ -32,8 +32,7 @@
                          ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")))
 (package-initialize)
 
-(set-frame-font "Hack 13")
-(add-to-list 'default-frame-alist '(fullscreen . maximized))
+(set-frame-font "Iosevka 13")
 
 ;; 启动自动最大化
 (defun screen-maximized ()
@@ -47,10 +46,12 @@
 )
 (screen-maximized)
 
-;; doom-modeline
-(require 'doom-modeline)
-(doom-modeline-mode t)
-(setq doom-modeline-height 15)
+;; 背景透明
+(set-frame-parameter nil 'alpha '(90 . 100))
+
+;; powerline
+(require 'powerline)
+(powerline-default-theme)
 
 ;; darhboard
 (require 'dashboard)
@@ -134,5 +135,3 @@
 (require 'magit)
 (define-key magit-mode-map (kbd "\C-cs") 'magit-status)
 (global-set-key (kbd "\C-cg") 'magit-mode)
-
-;; rust
