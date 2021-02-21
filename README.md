@@ -1,5 +1,5 @@
 # MuqiuEmacs
-> Version : 2021.2.21
+> Version : 2021.2.21.2
 > Author : MuqiuHan
 > Email : muqiu-han@outlook.com
 > QQGroup: 780653172
@@ -16,6 +16,9 @@
   + 即将支持: Clojure/Web(HTML/CSS/JavaScript)
 
 ---
+
+## 更新信息
+> 修复window-numbering-mode的错误
 
 ## 语言支持
 

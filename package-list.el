@@ -50,6 +50,7 @@
 		      ;; V
 		      'vterm
 		      ;; W
+		      'window-numbering
 		      'web-mode
 		      ;; X
 		      ;; Y

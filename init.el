@@ -36,7 +36,7 @@
 
 ;; 主题配置
 (defconst theme 'doom-horizon)
-(defconst font "Fira Code 13") ;; 字体名 字体大小
+(defconst font "Fira Code 12") ;; 字体名 字体大小
 
 ;; 其他插件
 (defconst youdao-dictionary-key "C-q") ;; 有道翻译快捷键
