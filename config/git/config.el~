@@ -1,0 +1,2 @@
+(use-package magit)
+(define-key magit-mode-map (kbd "\C-cs") 'magit-status)

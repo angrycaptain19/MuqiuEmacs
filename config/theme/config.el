@@ -3,6 +3,8 @@
 (load "~/.emacs.d/config/theme/start-page-config.el")
 (load "~/.emacs.d/config/theme/status-config.el")
 
+(add-hook 'dired-mode-hook 'all-the-icons-dired-mode)
+
 (when start-frame-maximized
   (screen-maximized))
 

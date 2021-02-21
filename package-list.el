@@ -47,6 +47,7 @@
 		      ;; T
 		      'treemacs
 		      ;; U
+		      'use-package
 		      ;; V
 		      'vterm
 		      ;; W

@@ -1,4 +1,4 @@
-(require 'hy-mode)
+(use-package hy-mode)
 (define-key hy-mode-map (kbd "M-RET") 'hy-shell)
 (define-key hy-mode-map (kbd "\C-cb") 'hy-shell-eval-buffer)
 (define-key hy-mode-map (kbd "\C-cc") 'hy-shell-eval-current-form)

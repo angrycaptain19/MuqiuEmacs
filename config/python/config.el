@@ -1,6 +1,6 @@
-(require 'jedi)
-(require 'elpy)
-(require 'iedit)
+(use-package jedi)
+(use-package elpy)
+(use-package iedit)
 (elpy-enable)
 
 (setq elpy-rpc-backend "jedi")

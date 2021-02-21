@@ -1,3 +1,3 @@
 ;; lsp-java
-(require 'lsp-java)
+(use-package lsp-java)
 (add-hook 'java-mode-hook #'lsp)

@@ -1,5 +1,5 @@
 (defun start-page-dashboard ()
-  (require 'dashboard)
+  (use-package dashboard)
   (setq dashboard-banner-logo-title "Muqiu Emacs")
   (setq dashboard-banner-official-png "~/.emacs.d/res/logo.png")
   (setq dashboard-center-content t)

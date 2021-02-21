@@ -2,6 +2,8 @@
 (load "~/.emacs.d/config/customize.el")
 (load "~/.emacs.d/config/mail/config.el")
 (load "~/.emacs.d/config/theme/config.el")
+(load "~/.emacs.d/config/git/config.el")
+(load "~/.emacs.d/config/eaf/config.el")
 
 (load "~/.emacs.d/config/c-c++/config.el")
 (load "~/.emacs.d/config/java/config.el")

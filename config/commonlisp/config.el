@@ -1,8 +1,6 @@
-(require 'common-lisp-snippets)
-
 (setq inferior-lisp-program "/usr/bin/sbcl")
     (add-to-list 'load-path "/usr/")
-    (require 'slime)
+    (use-package slime)
     (slime-setup)
 (slime-setup '(slime-fancy))
 (add-hook 'lisp-mode slime-mode)

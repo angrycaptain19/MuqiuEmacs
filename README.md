@@ -1,5 +1,5 @@
 # MuqiuEmacs
-> Version : 2021.2.21.2  
+> Version : 2021.2.21.3  
 > Author : MuqiuHan  
 > Email : muqiu-han@outlook.com  
 > QQGroup: 780653172  
@@ -124,3 +124,10 @@
 ### highlight-indent-guides-mode
 + 缩进线显示
 + highlight-indent-guides-method控制显示，默认为竖线
+
+
+## 常见问题
+### all-the-icons
+> 在大部分情况下, 用户使用all-the-icons-install-fonts会出现链接错误的情况, 这种情况下, 我给出如下解决方法
+
++ Arch系用户: 

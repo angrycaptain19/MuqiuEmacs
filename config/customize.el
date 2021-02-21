@@ -20,3 +20,9 @@
 (require 'youdao-dictionary)
 (setq url-automatic-caching t)
 (global-set-key (kbd "C-q") 'youdao-dictionary-search-at-point+)
+
+;; company
+(global-company-mode t)
+(setq company-idle-delay 0.1)
+(setq company-show-numbers t)
+(setq company-minimum-prefix-length 1)

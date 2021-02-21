@@ -1,5 +1,4 @@
 ;; gnus
-(require 'gnus)
 (setq user-mail-address	"muqiu-han@outlook.com" ;; 这里使用你的邮件地址
       user-full-name	"Muqiu-Han")  ;; 用户名
 (setq gnus-select-method '(nnimap "outlook.office365.com")) ;; 邮件服务器
