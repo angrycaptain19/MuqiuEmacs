@@ -1,19 +1,19 @@
 # MuqiuEmacs
-> Version : 2021.2.21.2
-> Author : MuqiuHan
-> Email : muqiu-han@outlook.com
-> QQGroup: 780653172
+> Version : 2021.2.21.2  
+> Author : MuqiuHan  
+> Email : muqiu-han@outlook.com  
+> QQGroup: 780653172  
 
 ## Introduction
 > MuqiuEmacs是个模块化的，精简的Emacs配置
 
-+ 启动页 : dashboard/default/none
-+ 文件树 : treemacs/neotree/speedbar/dired
-+ 主题界面 : doom-themes
-+ 状态栏 : doom-modeline/powerline/default
-+ 邮件首发 : gnus
-+ 语言支持 : C/C++/Java/Python/CommonLisp/Hylang/Markdown
-  + 即将支持: Clojure/Web(HTML/CSS/JavaScript)
++ 启动页 : dashboard/default/none  
++ 文件树 : treemacs/neotree/speedbar/dired  
++ 主题界面 : doom-themes  
++ 状态栏 : doom-modeline/powerline/default  
++ 邮件首发 : gnus  
++ 语言支持 : C/C++/Java/Python/CommonLisp/Hylang/Markdown  
+  + 即将支持: Clojure/Web(HTML/CSS/JavaScript)  
 
 ---
 
