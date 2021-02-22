@@ -1,5 +1,5 @@
 # MuqiuEmacs
-> Version : 2021.2.21.3  
+> Version : 2021.2.22.3  
 > Author : MuqiuHan  
 > Email : muqiu-han@outlook.com  
 > QQGroup: 780653172  
@@ -11,16 +11,21 @@
 + 文件树 : treemacs/neotree/speedbar/dired  
 + 主题界面 : doom-themes  
 + 状态栏 : doom-modeline/powerline/default  
-+ 邮件首发 : gnus  
-+ 语言支持 : C/C++/Java/Python/CommonLisp/Hylang/Markdown  
-  + 即将支持: Clojure/Web(HTML/CSS/JavaScript)  
++ 邮件收发 : gnus  
++ 语言支持 : C/C++/Python/CommonLisp/Hylang/Markdown/Web(HTML/CSS/JavaScript) __
+  + 即将支持: Clojure/Java/Rust
 
 ---
 
 ## 更新信息
-> 修复window-numbering-mode的错误
+> 更新C/C++补全为LSP
+> 更新markdown模式
 
 ## 语言支持
+
+### Markdown
+> 打开markdown文件进入markdown模式
++ 打开另一个buffer预览markdown: ```C-c p```
 
 ### Hylang
 > 需要pip install jedhy后使用
@@ -57,9 +62,13 @@
 注意: 在使用之前需要执行: (lsp-javacomp-install-server)
 
 ### C/C++
+
+#### 语法检查
++ flycheck
+
 #### 补全
-+ company
-+ company-c-headers
++ ccls
++ company-lsp
 
 #### gtags
 ##### 依赖
@@ -131,3 +140,10 @@
 > 在大部分情况下, 用户使用all-the-icons-install-fonts会出现链接错误的情况, 这种情况下, 我给出如下解决方法
 
 + Arch系用户: 
+  yay或者yaourt -Syyu ttf-all-the-icons
+  
++ 其他:
+  查看MuqiuEmacs的res文件夹，里面有ttf文件
+  
+----
+如上。

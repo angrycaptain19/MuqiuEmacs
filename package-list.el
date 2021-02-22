@@ -5,10 +5,9 @@
 		      ;; B
 		      ;; C
 		      'company
-		      'company-lsp
 		      'company-jedi
-		      'company-c-headers
 		      'company-anaconda
+		      'company-lsp
 		      'common-lisp-snippets
 		      'ccls
 		      ;; D
@@ -21,6 +20,7 @@
 		      ;; F
 		      'flycheck
 		      ;; G
+		      'ggtags
 		      ;; H
 		      'highlight-indent-guides
 		      'highlight-parentheses
@@ -32,6 +32,7 @@
 		      ;; K
 		      ;; L
 		      'lsp-java
+		      'lsp-ui
 		      'lsp-javacomp
 		      ;; M
 		      'magit

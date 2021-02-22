@@ -5,10 +5,9 @@
  ;; If there is more than one, they won't work right.
  '(column-number-mode t)
  '(current-language-environment "UTF-8")
- '(custom-enabled-themes (quote (doom-horizon)))
+ '(custom-enabled-themes '(doom-horizon))
  '(custom-safe-themes
-   (quote
-    ("0685ffa6c9f1324721659a9cd5a8931f4bb64efae9ce43a3dba3801e9412b4d8" default)))
+   '("0685ffa6c9f1324721659a9cd5a8931f4bb64efae9ce43a3dba3801e9412b4d8" default))
  '(display-battery-mode t)
  '(display-time-mode t)
  '(font-use-system-font t)
@@ -16,8 +15,7 @@
  '(global-display-line-numbers-mode t)
  '(menu-bar-mode nil)
  '(package-selected-packages
-   (quote
-    (all-the-icons-ibuffer web-mode emmet-mode common-lisp-snippets slime iedit jedi company-anaconda yasnippet-snippets gtags flycheck elpy company-jedi lsp-javacomp global-tags ggtags company-c-headers ccls company nil package-name)))
+   '(flash-region ccls lsp-ui all-the-icons-ibuffer web-mode emmet-mode common-lisp-snippets slime iedit jedi company-anaconda yasnippet-snippets gtags flycheck elpy company-jedi lsp-javacomp global-tags ggtags company nil package-name))
  '(scroll-bar-mode nil)
  '(size-indication-mode t)
  '(tool-bar-mode nil)
@@ -38,7 +36,7 @@
 
 ;; 主题配置
 (defconst theme 'doom-horizon)
-(defconst font "Fira Code 12") ;; 字体名 字体大小
+(defconst font "Fira Code 13") ;; 字体名 字体大小
 
 ;; 其他插件
 (defconst youdao-dictionary-key "C-q") ;; 有道翻译快捷键

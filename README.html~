@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>README.html</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+
+</head>
+
+<body>
+
+<h1>MuqiuEmacs</h1>
+
+<blockquote><p>Version : 2021.2.22.3<br/>
+Author : MuqiuHan<br/>
+Email : muqiu-han@outlook.com<br/>
+QQGroup: 780653172</p></blockquote>
+
+<h2>Introduction</h2>
+
+<blockquote><p>MuqiuEmacs是个模块化的，精简的Emacs配置</p></blockquote>
+
+<ul>
+<li>启动页 : dashboard/default/none</li>
+<li>文件树 : treemacs/neotree/speedbar/dired</li>
+<li>主题界面 : doom-themes</li>
+<li>状态栏 : doom-modeline/powerline/default</li>
+<li>邮件收发 : gnus</li>
+<li>语言支持 : C/C++/Python/CommonLisp/Hylang/Markdown/Web(HTML/CSS/JavaScript) __
+
+<ul>
+<li>即将支持: Clojure/Java/Rust</li>
+</ul>
+</li>
+</ul>
+
+
+<hr />
+
+<h2>更新信息</h2>
+
+<blockquote><p>更新C/C++补全为LSP
+更新markdown模式</p></blockquote>
+
+<h2>语言支持</h2>
+
+<h3>Markdown</h3>
+
+<blockquote><p>打开markdown文件进入markdown模式
++ 打开另一个buffer预览markdown: <code>C-c p</code></p></blockquote>
+
+<h3>Hylang</h3>
+
+<blockquote><p>需要pip install jedhy后使用
++ 打开Hy-shell: <code>M-RET</code>
++ 执行当前buffer: <code>C-c b</code>
++ 执行选中的语句: <code>C-r c</code></p></blockquote>
+
+<h3>CommonLisp</h3>
+
+<h4>slime</h4>
+
+<blockquote><p>在使用之前需要在操作系统中安装slime</p></blockquote>
+
+<ul>
+<li>加载当前文件: <code>C-c l</code></li>
+<li>编译当前文件: <code>C-c c</code></li>
+</ul>
+
+
+<h3>Python</h3>
+
+<blockquote><p>在使用Python之前，要需pip install jedi elpy rope pylint</p></blockquote>
+
+<h4>补全</h4>
+
+<ul>
+<li>补全后端使用anaconda</li>
+<li><p>自动扩展: <code>C-c k</code></p>
+
+<blockquote><p>例如: 输入for, 摁下快捷键后自动补全for形式</p></blockquote></li>
+<li><p>重构工具: <code>C-c o</code></p>
+
+<blockquote><p>例如: 选中字符串后，摁下快捷键选中当前文件中所有这个字符串</p></blockquote></li>
+<li><p>语法检查flycheck</p></li>
+</ul>
+
+
+<h3>Java</h3>
+
+<h4>补全</h4>
+
+<ul>
+<li>lsp-java</li>
+<li>lsp-javacomp</li>
+</ul>
+
+
+<p>注意: 在使用之前需要执行: (lsp-javacomp-install-server)</p>
+
+<h3>C/C++</h3>
+
+<h4>语法检查</h4>
+
+<ul>
+<li>flycheck</li>
+</ul>
+
+
+<h4>补全</h4>
+
+<ul>
+<li>company</li>
+<li>company-c-headers</li>
+<li>company-clang</li>
+</ul>
+
+
+<h4>gtags</h4>
+
+<h5>依赖</h5>
+
+<blockquote><p>在使用gtags之前，系统需要有这些软件包
++ global
++ ggtags</p>
+
+<p>在使用gtags之前，需要在你的工程目录下面执行gtags命令，生成三个文件: GPATH GRTAGS GTAGS</p></blockquote>
+
+<h5>使用方法</h5>
+
+<ol>
+<li><p>从调用一个函数的地方跳转到函数的定义的地方
+<code>M-x ggtags-find-definition</code>
+对应的快捷键： <code>M-</code></p></li>
+<li><p>从调用一个函数的地方跳转到函数的定义的地方后，返回到调用函数的地方
+ <code>M-x ggtags-prev-mark</code>
+ 对应的快捷键： <code>M-,</code></p></li>
+<li><p>或是反过来从函数定义的地方列出所有调用这个函数的地方
+<code>M-x ggtags-find-reference</code>
+对应的快捷键： <code>M-]</code></p></li>
+<li><p>查看导航过的历史记录
+<code>M-x ggtags-view-tag-history</code>
+对应的快捷键： <code>C-c M-h</code></p></li>
+<li><p>更多的帮助可以使用 <code>man gtags</code> 查看</p></li>
+</ol>
+
+
+<h4>GDB的配置</h4>
+
+<ul>
+<li>F5: make自动编译程序</li>
+<li>F7: 进行GDB调试</li>
+<li>F9: 设置断点</li>
+<li>C-F9: 删除断线</li>
+<li>C-F5: 执行程序</li>
+<li>F10: 单步执行</li>
+<li>F11: 单步执行(进入函数)</li>
+<li>C-F10: 重复执行光标位置语句(util)</li>
+<li>C-F11: 跳出当前函数</li>
+<li>Shift-F10: jump到光标位置，下一次从光标位置执行</li>
+<li>Shift-F5: 继续执行程序</li>
+<li>F8 : 输出变量的值</li>
+<li>C-F8: 打印指针对应值</li>
+</ul>
+
+
+<h3>Web</h3>
+
+<ul>
+<li>emmet-mode
+
+<ul>
+<li>emmet生成html: <code>C-j</code></li>
+</ul>
+</li>
+<li>web-mode</li>
+</ul>
+
+
+<h2>其他插件</h2>
+
+<h3>youdao-dictionary</h3>
+
+<blockquote><p>使用有道翻译选中的单词
++ 选中字符串后，翻译快捷键: <code>C-q</code></p></blockquote>
+
+<h3>window-numbering</h3>
+
+<blockquote><p><code>M-(1~9)</code> 跳转到窗口序号对应的窗口</p></blockquote>
+
+<h3>highlight-parentheses</h3>
+
+<ul>
+<li>括号高亮匹配</li>
+<li>默认全局启用</li>
+</ul>
+
+
+<h3>highlight-indent-guides-mode</h3>
+
+<ul>
+<li>缩进线显示</li>
+<li>highlight-indent-guides-method控制显示，默认为竖线</li>
+</ul>
+
+
+<h2>常见问题</h2>
+
+<h3>all-the-icons</h3>
+
+<blockquote><p>在大部分情况下, 用户使用all-the-icons-install-fonts会出现链接错误的情况, 这种情况下, 我给出如下解决方法</p></blockquote>
+
+<ul>
+<li><p>Arch系用户:
+yay或者yaourt -Syyu ttf-all-the-icons</p></li>
+<li><p>其他:
+查看MuqiuEmacs的res文件夹，里面有ttf文件</p></li>
+</ul>
+
+
+<hr />
+
+<p>如上。</p>
+
+</body>
+</html>

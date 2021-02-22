@@ -1,6 +1,11 @@
 ;; 代码补全
-(add-hook 'c-mode-hook 'company-mode)
-(add-hook 'c++-mode-hook 'company-mode)
+(use-package lsp-mode :commands lsp)
+(use-package lsp-ui :commands lsp-ui-mode)
+(use-package company-lsp :commands company-lsp)
+
+(use-package ccls
+  :hook ((c-mode c++-mode objc-mode cuda-mode) .
+         (lambda () (require 'ccls) (lsp))))
 
 ;; 代码跳转
 (add-hook 'c-mode-hook 'ggtags-mode)
@@ -21,3 +26,6 @@
 (global-set-key [S-f10] 'gud-jump)
 (global-set-key [f11] 'gud-step)
 (global-set-key [C-f11] 'gud-finish)
+;; 语法检查
+(add-hook 'c++-mode-hook 'flycheck-mode)
+(add-hook 'c-mode-hook 'flycheck-mode)

@@ -1,0 +1,1430 @@
+(AutoLog) Called: EPCClientHandler._send('call', 1, Symbol('eval-in-emacs'), ['eaf--first-start', 'MzY4MDM=', 'RmFsc2U='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: ThreadingEPCHandler.setup()
+(AutoLog) Returns: ThreadingEPCHandler.setup(...) = None
+(AutoLog) Called: ThreadingEPCHandler.handle()
+receiving...
+received: length = 155; data = b'(call 5 new_buffer ("8fd5-f018-4bfa-c96b-07f7-b670-794c" "https://www.bilibili.com/video/BV1tt411j7Yb?from=search&seid=1861284816845383667" "browser" ""))\n'
+received: length = 15; data = b'(return 1 nil)\n'
+(AutoLog) Called: ThreadingEPCHandler._handle(b'(call 5 new_buffer ("8fd5-f018-4bfa-c96b-07f7-b670-794c" "https://www.bilibili.com/video/BV1tt411j7Yb?from=search&seid=1861284816845383667" "browser" ""))\n')
+receiving...
+receiving...
+(AutoLog) Called: ThreadingEPCHandler._handle_call(5, Symbol('new_buffer'), ['8fd5-f018-4bfa-c96b-07f7-b670-794c', 'https://www.bilibili.com/video/BV1tt411j7Yb?from=search&seid=1861284816845383667', 'browser', ''])
+(AutoLog) Called: EPCClientHandler._handle(b'(return 1 nil)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+received: length = 83; data = b'(call 6 update_views ("8fd5-f018-4bfa-c96b-07f7-b670-794c:98566179:0:0:1920:921"))\n'
+(AutoLog) Returns: ThreadingEPCHandler._handle_call(...) = ['return', 5, None]
+(AutoLog) Called: ThreadingEPCHandler._handle(b'(call 6 update_views ("8fd5-f018-4bfa-c96b-07f7-b670-794c:98566179:0:0:1920:921"))\n')
+(AutoLog) Called: ThreadingEPCHandler._send('return', 5, None)
+receiving...
+(AutoLog) Called: ThreadingEPCHandler._handle_call(6, Symbol('update_views'), ['8fd5-f018-4bfa-c96b-07f7-b670-794c:98566179:0:0:1920:921'])
+(AutoLog) Returns: ThreadingEPCHandler._send(...) = None
+(AutoLog) Returns: ThreadingEPCHandler._handle(...) = None
+(AutoLog) Returns: ThreadingEPCHandler._handle_call(...) = ['return', 6, None]
+(AutoLog) Called: ThreadingEPCHandler._send('return', 6, None)
+(AutoLog) Returns: ThreadingEPCHandler._send(...) = None
+(AutoLog) Returns: ThreadingEPCHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 2, Symbol('eval-in-emacs'), ['eaf--show-message', 'S2lsbCBzZWxlY3RlZCB0ZXh0Lg=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 3, Symbol('eval-in-emacs'), ['eaf--show-message', 'WWFuayBzZWxlY3RlZCB0ZXh0Lg=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 4, Symbol('eval-in-emacs'), ['eaf--show-message', 'S2lsbCBzZWxlY3RlZCB0ZXh0Lg=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 5, Symbol('eval-in-emacs'), ['eaf--show-message', 'WWFuayBzZWxlY3RlZCB0ZXh0Lg=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 43; data = b'(return 2 "[EAF/nil] Kill selected text.")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 2 "[EAF/nil] Kill selected text.")\n')
+received: length = 43; data = b'(return 3 "[EAF/nil] Yank selected text.")\n'
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 3 "[EAF/nil] Yank selected text.")\n')
+received: length = 43; data = b'(return 4 "[EAF/nil] Kill selected text.")\n'
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 4 "[EAF/nil] Kill selected text.")\n')
+received: length = 43; data = b'(return 5 "[EAF/nil] Yank selected text.")\n'
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 5 "[EAF/nil] Yank selected text.")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 6, Symbol('eval-in-emacs'), ['eaf--update-buffer-details', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw==', 'aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMXR0NDExajdZYj9mcm9tPXNlYXJjaCZzZWlkPTE4NjEyODQ4MTY4NDUzODM2Njc=', 'aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMXR0NDExajdZYj9mcm9tPXNlYXJjaCZzZWlkPTE4NjEyODQ4MTY4NDUzODM2Njc='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 13; data = b'(return 6 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 6 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 7, Symbol('eval-in-emacs'), ['eaf--update-buffer-details', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw==', 'SW5zdGFsbGluZyBhbmQgZ2V0dGluZyBzdGFydGVkIHdpdGggU3BhY2VtYWNzLSBFbWFjcyB0dXRvcmlhbF/lk5Tlk6nlk5Tlk6kgKOOCnC3jgpwp44Gk44OtIOW5suadr34tYmlsaWJpbGk=', 'aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMXR0NDExajdZYj9mcm9tPXNlYXJjaCZzZWlkPTE4NjEyODQ4MTY4NDUzODM2Njc='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 13; data = b'(return 7 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 7 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 8, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 9, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 10, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 11, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 12, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 13, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 14, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 15, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 16, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 17, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 18, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 19, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 20, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 21, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 22, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 23, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 13; data = b'(return 8 t)\n'
+receiving...
+received: length = 13; data = b'(return 9 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 8 t)\n')
+received: length = 14; data = b'(return 10 t)\n'
+(AutoLog) Called: EPCClientHandler._handle(b'(return 9 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+receiving...
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._handle(b'(return 10 t)\n')
+received: length = 14; data = b'(return 11 t)\n'
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 11 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+received: length = 14; data = b'(return 12 t)\n'
+receiving...
+received: length = 14; data = b'(return 13 t)\n'
+(AutoLog) Called: EPCClientHandler._handle(b'(return 12 t)\n')
+receiving...
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._handle(b'(return 13 t)\n')
+received: length = 14; data = b'(return 14 t)\n'
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 14 t)\n')
+received: length = 14; data = b'(return 15 t)\n'
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 15 t)\n')
+received: length = 14; data = b'(return 16 t)\n'
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 16 t)\n')
+received: length = 14; data = b'(return 17 t)\n'
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 17 t)\n')
+received: length = 14; data = b'(return 18 t)\n'
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 18 t)\n')
+received: length = 14; data = b'(return 19 t)\n'
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 19 t)\n')
+received: length = 14; data = b'(return 20 t)\n'
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 20 t)\n')
+received: length = 14; data = b'(return 21 t)\n'
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 21 t)\n')
+received: length = 14; data = b'(return 22 t)\n'
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 22 t)\n')
+received: length = 14; data = b'(return 23 t)\n'
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 23 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 24, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 148; data = b'(return 24 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 24 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 25, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 148; data = b'(return 25 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 25 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 26, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 148; data = b'(return 26 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 26 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 27, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 148; data = b'(return 27 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 27 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 28, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 148; data = b'(return 28 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 28 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 29, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 148; data = b'(return 29 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 29 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 30, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 148; data = b'(return 30 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 30 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 31, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 148; data = b'(return 31 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 31 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 32, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 148; data = b'(return 32 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 32 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 33, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 148; data = b'(return 33 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 33 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 34, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 148; data = b'(return 34 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 34 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 35, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 148; data = b'(return 35 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 35 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 36, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 148; data = b'(return 36 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 36 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 37, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 148; data = b'(return 37 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 37 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 38, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 148; data = b'(return 38 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 38 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 39, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 148; data = b'(return 39 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 39 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 40, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 148; data = b'(return 40 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 40 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 41, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 148; data = b'(return 41 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 41 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 42, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 148; data = b'(return 42 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 42 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 43, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 148; data = b'(return 43 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 43 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 44, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 148; data = b'(return 44 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 44 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 45, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 148; data = b'(return 45 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 45 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 46, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 148; data = b'(return 46 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 46 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 47, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 148; data = b'(return 47 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 47 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 48, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 148; data = b'(return 48 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 48 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 49, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 148; data = b'(return 49 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 49 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 50, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 148; data = b'(return 50 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 50 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 51, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 148; data = b'(return 51 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 51 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 52, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 148; data = b'(return 52 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 52 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 53, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 148; data = b'(return 53 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 53 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 54, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 148; data = b'(return 54 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 54 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 55, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 14; data = b'(return 55 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 55 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 56, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 14; data = b'(return 56 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 56 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 57, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 14; data = b'(return 57 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 57 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 58, Symbol('eval-in-emacs'), ['eaf--update-buffer-details', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw==', 'aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tLz9zcG1faWRfZnJvbT0zMzMuNzg4LmJfNjk2ZTc0NjU3MjZlNjE3NDY5NmY2ZTYxNmM0ODY1NjE2NDY1NzIuMQ==', 'aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tLz9zcG1faWRfZnJvbT0zMzMuNzg4LmJfNjk2ZTc0NjU3MjZlNjE3NDY5NmY2ZTYxNmM0ODY1NjE2NDY1NzIuMQ=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 14; data = b'(return 58 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 58 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 59, Symbol('eval-in-emacs'), ['eaf--update-buffer-details', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw==', '5ZOU5ZOp5ZOU5ZOpICjjgpwt44KcKeOBpOODrSDlubLmna9+LWJpbGliaWxp', 'aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tLz9zcG1faWRfZnJvbT0zMzMuNzg4LmJfNjk2ZTc0NjU3MjZlNjE3NDY5NmY2ZTYxNmM0ODY1NjE2NDY1NzIuMQ=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 14; data = b'(return 59 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 59 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 60, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 14; data = b'(return 60 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 60 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 61, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 14; data = b'(return 61 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 61 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 62, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 14; data = b'(return 62 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 62 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 63, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 14; data = b'(return 63 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 63 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 64, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 14; data = b'(return 64 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 64 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 65, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 14; data = b'(return 65 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 65 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 66, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 14; data = b'(return 66 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 66 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 67, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 14; data = b'(return 67 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 67 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 68, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 14; data = b'(return 68 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 68 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 69, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 70, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 14; data = b'(return 69 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 69 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+received: length = 14; data = b'(return 70 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 70 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 71, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 14; data = b'(return 71 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 71 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 72, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 14; data = b'(return 72 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 72 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 73, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 14; data = b'(return 73 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 73 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 74, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 14; data = b'(return 74 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 74 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 75, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 14; data = b'(return 75 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 75 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 76, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 14; data = b'(return 76 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 76 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 77, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 14; data = b'(return 77 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 77 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 78, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 79, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 14; data = b'(return 78 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 78 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+received: length = 14; data = b'(return 79 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 79 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 80, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 81, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 14; data = b'(return 80 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 80 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+received: length = 14; data = b'(return 81 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 81 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 82, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 14; data = b'(return 82 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 82 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 83, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 14; data = b'(return 83 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 83 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 84, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 14; data = b'(return 84 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 84 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 85, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 14; data = b'(return 85 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 85 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 86, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 14; data = b'(return 86 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 86 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 87, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 88, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 14; data = b'(return 87 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 87 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+received: length = 14; data = b'(return 88 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 88 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 89, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 14; data = b'(return 89 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 89 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 90, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 14; data = b'(return 90 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 90 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 91, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 92, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+received: length = 14; data = b'(return 91 t)\n'
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 91 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+received: length = 14; data = b'(return 92 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 92 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 93, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 94, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 14; data = b'(return 93 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 93 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+received: length = 14; data = b'(return 94 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 94 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 95, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 14; data = b'(return 95 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 95 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 96, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 97, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+received: length = 14; data = b'(return 96 t)\n'
+receiving...
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._handle(b'(return 96 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+received: length = 14; data = b'(return 97 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 97 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 98, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 14; data = b'(return 98 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 98 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 99, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 14; data = b'(return 99 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 99 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 100, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 15; data = b'(return 100 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 100 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 101, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 102, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+received: length = 15; data = b'(return 101 t)\n'
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+receiving...
+received: length = 15; data = b'(return 102 t)\n'
+(AutoLog) Called: EPCClientHandler._handle(b'(return 101 t)\n')
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 102 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 103, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 15; data = b'(return 103 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 103 t)\n')
+(AutoLog) Called: EPCClientHandler._send('call', 104, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 15; data = b'(return 104 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 104 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 105, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 15; data = b'(return 105 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 105 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 106, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 15; data = b'(return 106 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 106 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 107, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 15; data = b'(return 107 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 107 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 108, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 15; data = b'(return 108 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 108 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 109, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 15; data = b'(return 109 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 109 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 110, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 149; data = b'(return 110 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 110 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 111, Symbol('eval-in-emacs'), ['eaf--show-message', 'S2lsbCBzZWxlY3RlZCB0ZXh0Lg=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 112, Symbol('eval-in-emacs'), ['eaf--show-message', 'WWFuayBzZWxlY3RlZCB0ZXh0Lg=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 113, Symbol('eval-in-emacs'), ['eaf--show-message', 'S2lsbCBzZWxlY3RlZCB0ZXh0Lg=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 49; data = b'(return 111 "[EAF/browser] Kill selected text.")\n'
+(AutoLog) Called: EPCClientHandler._send('call', 114, Symbol('eval-in-emacs'), ['eaf--show-message', 'WWFuayBzZWxlY3RlZCB0ZXh0Lg=='])
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 111 "[EAF/browser] Kill selected text.")\n')
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+received: length = 49; data = b'(return 112 "[EAF/browser] Yank selected text.")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 112 "[EAF/browser] Yank selected text.")\n')
+received: length = 49; data = b'(return 113 "[EAF/browser] Kill selected text.")\n'
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 113 "[EAF/browser] Kill selected text.")\n')
+received: length = 49; data = b'(return 114 "[EAF/browser] Yank selected text.")\n'
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 114 "[EAF/browser] Yank selected text.")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 115, Symbol('eval-in-emacs'), ['eaf--create-new-browser-buffer', 'N2NhMC1jYjlmLTExM2YtNTU5Mi1iYmQ2LWIwMTYtNjRlOQ=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 79; data = b'(return 115 #<buffer Browser Popup Window 7ca0-cb9f-113f-5592-bbd6-b016-64e9>)\n'
+receiving...
+received: length = 83; data = b'(call 7 update_views ("7ca0-cb9f-113f-5592-bbd6-b016-64e9:98566179:0:0:1920:921"))\n'
+(AutoLog) Called: EPCClientHandler._handle(b'(return 115 #<buffer Browser Popup Window 7ca0-cb9f-113f-5592-bbd6-b016-64e9>)\n')
+(return 115 ...): Got too many arguments in the reply: [Symbol('#<buffer'), Symbol('Browser'), Symbol('Popup'), Symbol('Window'), Symbol('7ca0-cb9f-113f-5592-bbd6-b016-64e9>')]
+(AutoLog) Called: ThreadingEPCHandler._handle(b'(call 7 update_views ("7ca0-cb9f-113f-5592-bbd6-b016-64e9:98566179:0:0:1920:921"))\n')
+receiving...
+EPCError("(return 115 ...): Got too many arguments in the reply: [Symbol('#<buffer'), Symbol('Browser'), Symbol('Popup'), Symbol('Window'), Symbol('7ca0-cb9f-113f-5592-bbd6-b016-64e9>')]")
+(AutoLog) Called: ThreadingEPCHandler._handle_call(7, Symbol('update_views'), ['7ca0-cb9f-113f-5592-bbd6-b016-64e9:98566179:0:0:1920:921'])
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Returns: ThreadingEPCHandler._handle_call(...) = ['return', 7, None]
+(AutoLog) Called: ThreadingEPCHandler._send('return', 7, None)
+(AutoLog) Returns: ThreadingEPCHandler._send(...) = None
+(AutoLog) Returns: ThreadingEPCHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 116, Symbol('eval-in-emacs'), ['eaf--update-buffer-details', 'N2NhMC1jYjlmLTExM2YtNTU5Mi1iYmQ2LWIwMTYtNjRlOQ==', 'aHR0cHM6Ly9zZWFyY2guYmlsaWJpbGkuY29tL2FsbD9rZXl3b3JkPUVtYWNzJmZyb21fc291cmNlPW5hdl9zdWdnZXN0X25ldw==', 'aHR0cHM6Ly9zZWFyY2guYmlsaWJpbGkuY29tL2FsbD9rZXl3b3JkPUVtYWNzJmZyb21fc291cmNlPW5hdl9zdWdnZXN0X25ldw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 15; data = b'(return 116 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 116 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 117, Symbol('eval-in-emacs'), ['eaf--update-buffer-details', 'N2NhMC1jYjlmLTExM2YtNTU5Mi1iYmQ2LWIwMTYtNjRlOQ==', 'RW1hY3MgLSDmkJzntKLnu5PmnpwgLSDlk5Tlk6nlk5Tlk6nlvLnluZXop4bpopHnvZEgLSAoIOOCnC0g44KcKeOBpOODrSDkub7mna9+IC0gYmlsaWJpbGk=', 'aHR0cHM6Ly9zZWFyY2guYmlsaWJpbGkuY29tL2FsbD9rZXl3b3JkPUVtYWNzJmZyb21fc291cmNlPW5hdl9zdWdnZXN0X25ldw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 15; data = b'(return 117 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 117 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 118, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'N2NhMC1jYjlmLTExM2YtNTU5Mi1iYmQ2LWIwMTYtNjRlOQ=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 119, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 15; data = b'(return 118 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 118 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+received: length = 15; data = b'(return 119 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 119 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 120, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'N2NhMC1jYjlmLTExM2YtNTU5Mi1iYmQ2LWIwMTYtNjRlOQ=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 121, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 15; data = b'(return 120 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 120 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+received: length = 15; data = b'(return 121 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 121 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 122, Symbol('eval-in-emacs'), ['eaf--show-message', 'S2lsbCBzZWxlY3RlZCB0ZXh0Lg=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 123, Symbol('eval-in-emacs'), ['eaf--show-message', 'WWFuayBzZWxlY3RlZCB0ZXh0Lg=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 124, Symbol('eval-in-emacs'), ['eaf--show-message', 'S2lsbCBzZWxlY3RlZCB0ZXh0Lg=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 125, Symbol('eval-in-emacs'), ['eaf--show-message', 'WWFuayBzZWxlY3RlZCB0ZXh0Lg=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 49; data = b'(return 122 "[EAF/browser] Kill selected text.")\n'
+receiving...
+received: length = 49; data = b'(return 123 "[EAF/browser] Yank selected text.")\n'
+receiving...
+received: length = 49; data = b'(return 124 "[EAF/browser] Kill selected text.")\n'
+(AutoLog) Called: EPCClientHandler._handle(b'(return 122 "[EAF/browser] Kill selected text.")\n')
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 123 "[EAF/browser] Yank selected text.")\n')
+(AutoLog) Called: EPCClientHandler._handle(b'(return 124 "[EAF/browser] Kill selected text.")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+received: length = 49; data = b'(return 125 "[EAF/browser] Yank selected text.")\n'
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 125 "[EAF/browser] Yank selected text.")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 126, Symbol('eval-in-emacs'), ['eaf--create-new-browser-buffer', 'ZTNmMy0zZDlhLTdiZDgtYzA1My0zODJlLWNkOWUtZGM3MA=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 79; data = b'(return 126 #<buffer Browser Popup Window e3f3-3d9a-7bd8-c053-382e-cd9e-dc70>)\n'
+receiving...
+received: length = 83; data = b'(call 8 update_views ("e3f3-3d9a-7bd8-c053-382e-cd9e-dc70:98566179:0:0:1920:921"))\n'
+(AutoLog) Called: EPCClientHandler._handle(b'(return 126 #<buffer Browser Popup Window e3f3-3d9a-7bd8-c053-382e-cd9e-dc70>)\n')
+(AutoLog) Called: ThreadingEPCHandler._handle(b'(call 8 update_views ("e3f3-3d9a-7bd8-c053-382e-cd9e-dc70:98566179:0:0:1920:921"))\n')
+receiving...
+(return 126 ...): Got too many arguments in the reply: [Symbol('#<buffer'), Symbol('Browser'), Symbol('Popup'), Symbol('Window'), Symbol('e3f3-3d9a-7bd8-c053-382e-cd9e-dc70>')]
+(AutoLog) Called: ThreadingEPCHandler._handle_call(8, Symbol('update_views'), ['e3f3-3d9a-7bd8-c053-382e-cd9e-dc70:98566179:0:0:1920:921'])
+EPCError("(return 126 ...): Got too many arguments in the reply: [Symbol('#<buffer'), Symbol('Browser'), Symbol('Popup'), Symbol('Window'), Symbol('e3f3-3d9a-7bd8-c053-382e-cd9e-dc70>')]")
+(AutoLog) Returns: ThreadingEPCHandler._handle_call(...) = ['return', 8, None]
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: ThreadingEPCHandler._send('return', 8, None)
+(AutoLog) Returns: ThreadingEPCHandler._send(...) = None
+(AutoLog) Returns: ThreadingEPCHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 127, Symbol('eval-in-emacs'), ['eaf--update-buffer-details', 'ZTNmMy0zZDlhLTdiZDgtYzA1My0zODJlLWNkOWUtZGM3MA==', 'aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMXY1NDExTjdkYj9mcm9tPXNlYXJjaCZzZWlkPTE1Mzg5MTg4NzE2Mzk1ODMwNDY2', 'aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMXY1NDExTjdkYj9mcm9tPXNlYXJjaCZzZWlkPTE1Mzg5MTg4NzE2Mzk1ODMwNDY2'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 15; data = b'(return 127 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 127 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 128, Symbol('eval-in-emacs'), ['eaf--update-buffer-details', 'ZTNmMy0zZDlhLTdiZDgtYzA1My0zODJlLWNkOWUtZGM3MA==', '44CU5ZCI6ZuG44CV5aSn5b+Z5Lq65LiA6LW36K+744CKRW1hY3MgTGlzcCBJbnRyb+OAi1/lk5Tlk6nlk5Tlk6kgKOOCnC3jgpwp44Gk44OtIOW5suadr34tYmlsaWJpbGk=', 'aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMXY1NDExTjdkYj9mcm9tPXNlYXJjaCZzZWlkPTE1Mzg5MTg4NzE2Mzk1ODMwNDY2'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 15; data = b'(return 128 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 128 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 129, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 149; data = b'(return 129 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 129 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 130, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 149; data = b'(return 130 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 130 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 131, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 149; data = b'(return 131 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 131 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 132, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 149; data = b'(return 132 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 132 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 133, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 149; data = b'(return 133 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 133 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 134, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 149; data = b'(return 134 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 134 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 135, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 136, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 149; data = b'(return 135 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 135 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+received: length = 149; data = b'(return 136 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 136 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 137, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 138, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 149; data = b'(return 137 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 137 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+received: length = 149; data = b'(return 138 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 138 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+received: length = 82; data = b'(call 9 update_views ("e3f3-3d9a-7bd8-c053-382e-cd9e-dc70:98566179:0:0:960:921"))\n'
+(AutoLog) Called: ThreadingEPCHandler._handle(b'(call 9 update_views ("e3f3-3d9a-7bd8-c053-382e-cd9e-dc70:98566179:0:0:960:921"))\n')
+receiving...
+(AutoLog) Called: ThreadingEPCHandler._handle_call(9, Symbol('update_views'), ['e3f3-3d9a-7bd8-c053-382e-cd9e-dc70:98566179:0:0:960:921'])
+(AutoLog) Returns: ThreadingEPCHandler._handle_call(...) = ['return', 9, None]
+(AutoLog) Called: ThreadingEPCHandler._send('return', 9, None)
+(AutoLog) Returns: ThreadingEPCHandler._send(...) = None
+(AutoLog) Returns: ThreadingEPCHandler._handle(...) = None
+received: length = 83; data = b'(call 10 update_views ("e3f3-3d9a-7bd8-c053-382e-cd9e-dc70:98566179:0:0:960:928"))\n'
+(AutoLog) Called: ThreadingEPCHandler._handle(b'(call 10 update_views ("e3f3-3d9a-7bd8-c053-382e-cd9e-dc70:98566179:0:0:960:928"))\n')
+receiving...
+(AutoLog) Called: ThreadingEPCHandler._handle_call(10, Symbol('update_views'), ['e3f3-3d9a-7bd8-c053-382e-cd9e-dc70:98566179:0:0:960:928'])
+(AutoLog) Returns: ThreadingEPCHandler._handle_call(...) = ['return', 10, None]
+(AutoLog) Called: ThreadingEPCHandler._send('return', 10, None)
+(AutoLog) Returns: ThreadingEPCHandler._send(...) = None
+(AutoLog) Returns: ThreadingEPCHandler._handle(...) = None
+received: length = 83; data = b'(call 11 update_views ("e3f3-3d9a-7bd8-c053-382e-cd9e-dc70:98566179:0:0:960:928"))\n'
+(AutoLog) Called: ThreadingEPCHandler._handle(b'(call 11 update_views ("e3f3-3d9a-7bd8-c053-382e-cd9e-dc70:98566179:0:0:960:928"))\n')
+receiving...
+(AutoLog) Called: ThreadingEPCHandler._handle_call(11, Symbol('update_views'), ['e3f3-3d9a-7bd8-c053-382e-cd9e-dc70:98566179:0:0:960:928'])
+(AutoLog) Returns: ThreadingEPCHandler._handle_call(...) = ['return', 11, None]
+(AutoLog) Called: ThreadingEPCHandler._send('return', 11, None)
+(AutoLog) Returns: ThreadingEPCHandler._send(...) = None
+(AutoLog) Returns: ThreadingEPCHandler._handle(...) = None
+received: length = 83; data = b'(call 12 update_views ("e3f3-3d9a-7bd8-c053-382e-cd9e-dc70:98566179:0:0:960:444"))\n'
+(AutoLog) Called: ThreadingEPCHandler._handle(b'(call 12 update_views ("e3f3-3d9a-7bd8-c053-382e-cd9e-dc70:98566179:0:0:960:444"))\n')
+receiving...
+(AutoLog) Called: ThreadingEPCHandler._handle_call(12, Symbol('update_views'), ['e3f3-3d9a-7bd8-c053-382e-cd9e-dc70:98566179:0:0:960:444'])
+(AutoLog) Returns: ThreadingEPCHandler._handle_call(...) = ['return', 12, None]
+(AutoLog) Called: ThreadingEPCHandler._send('return', 12, None)
+(AutoLog) Returns: ThreadingEPCHandler._send(...) = None
+(AutoLog) Returns: ThreadingEPCHandler._handle(...) = None
+received: length = 83; data = b'(call 13 update_views ("e3f3-3d9a-7bd8-c053-382e-cd9e-dc70:98566179:0:0:960:444"))\n'
+(AutoLog) Called: ThreadingEPCHandler._handle(b'(call 13 update_views ("e3f3-3d9a-7bd8-c053-382e-cd9e-dc70:98566179:0:0:960:444"))\n')
+receiving...
+(AutoLog) Called: ThreadingEPCHandler._handle_call(13, Symbol('update_views'), ['e3f3-3d9a-7bd8-c053-382e-cd9e-dc70:98566179:0:0:960:444'])
+(AutoLog) Returns: ThreadingEPCHandler._handle_call(...) = ['return', 13, None]
+(AutoLog) Called: ThreadingEPCHandler._send('return', 13, None)
+(AutoLog) Returns: ThreadingEPCHandler._send(...) = None
+(AutoLog) Returns: ThreadingEPCHandler._handle(...) = None
+received: length = 83; data = b'(call 14 update_views ("e3f3-3d9a-7bd8-c053-382e-cd9e-dc70:98566179:0:0:960:752"))\n'
+(AutoLog) Called: ThreadingEPCHandler._handle(b'(call 14 update_views ("e3f3-3d9a-7bd8-c053-382e-cd9e-dc70:98566179:0:0:960:752"))\n')
+receiving...
+(AutoLog) Called: ThreadingEPCHandler._handle_call(14, Symbol('update_views'), ['e3f3-3d9a-7bd8-c053-382e-cd9e-dc70:98566179:0:0:960:752'])
+(AutoLog) Returns: ThreadingEPCHandler._handle_call(...) = ['return', 14, None]
+(AutoLog) Called: ThreadingEPCHandler._send('return', 14, None)
+(AutoLog) Returns: ThreadingEPCHandler._send(...) = None
+(AutoLog) Returns: ThreadingEPCHandler._handle(...) = None
+received: length = 83; data = b'(call 15 update_views ("e3f3-3d9a-7bd8-c053-382e-cd9e-dc70:98566179:0:0:960:928"))\n'
+(AutoLog) Called: ThreadingEPCHandler._handle(b'(call 15 update_views ("e3f3-3d9a-7bd8-c053-382e-cd9e-dc70:98566179:0:0:960:928"))\n')
+receiving...
+(AutoLog) Called: ThreadingEPCHandler._handle_call(15, Symbol('update_views'), ['e3f3-3d9a-7bd8-c053-382e-cd9e-dc70:98566179:0:0:960:928'])
+(AutoLog) Returns: ThreadingEPCHandler._handle_call(...) = ['return', 15, None]
+(AutoLog) Called: ThreadingEPCHandler._send('return', 15, None)
+(AutoLog) Returns: ThreadingEPCHandler._send(...) = None
+(AutoLog) Returns: ThreadingEPCHandler._handle(...) = None
+received: length = 95; data = b'(call 16 new_buffer ("73b6-831b-d5a7-e37b-c059-45e9-172e" "http://www.bing.com" "browser" ""))\n'
+(AutoLog) Called: ThreadingEPCHandler._handle(b'(call 16 new_buffer ("73b6-831b-d5a7-e37b-c059-45e9-172e" "http://www.bing.com" "browser" ""))\n')
+receiving...
+(AutoLog) Called: ThreadingEPCHandler._handle_call(16, Symbol('new_buffer'), ['73b6-831b-d5a7-e37b-c059-45e9-172e', 'http://www.bing.com', 'browser', ''])
+(AutoLog) Returns: ThreadingEPCHandler._handle_call(...) = ['return', 16, None]
+(AutoLog) Called: ThreadingEPCHandler._send('return', 16, None)
+received: length = 141; data = b'(call 17 update_views ("e3f3-3d9a-7bd8-c053-382e-cd9e-dc70:98566179:0:0:960:928,73b6-831b-d5a7-e37b-c059-45e9-172e:98566179:960:0:960:921"))\n'
+(AutoLog) Returns: ThreadingEPCHandler._send(...) = None
+(AutoLog) Called: ThreadingEPCHandler._handle(b'(call 17 update_views ("e3f3-3d9a-7bd8-c053-382e-cd9e-dc70:98566179:0:0:960:928,73b6-831b-d5a7-e37b-c059-45e9-172e:98566179:960:0:960:921"))\n')
+(AutoLog) Returns: ThreadingEPCHandler._handle(...) = None
+receiving...
+(AutoLog) Called: ThreadingEPCHandler._handle_call(17, Symbol('update_views'), ['e3f3-3d9a-7bd8-c053-382e-cd9e-dc70:98566179:0:0:960:928,73b6-831b-d5a7-e37b-c059-45e9-172e:98566179:960:0:960:921'])
+(AutoLog) Called: EPCClientHandler._send('call', 139, Symbol('eval-in-emacs'), ['eaf--show-message', 'S2lsbCBzZWxlY3RlZCB0ZXh0Lg=='])
+(AutoLog) Returns: ThreadingEPCHandler._handle_call(...) = ['return', 17, None]
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: ThreadingEPCHandler._send('return', 17, None)
+(AutoLog) Called: EPCClientHandler._send('call', 140, Symbol('eval-in-emacs'), ['eaf--show-message', 'WWFuayBzZWxlY3RlZCB0ZXh0Lg=='])
+(AutoLog) Returns: ThreadingEPCHandler._send(...) = None
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Returns: ThreadingEPCHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 141, Symbol('eval-in-emacs'), ['eaf--show-message', 'S2lsbCBzZWxlY3RlZCB0ZXh0Lg=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 142, Symbol('eval-in-emacs'), ['eaf--show-message', 'WWFuayBzZWxlY3RlZCB0ZXh0Lg=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 49; data = b'(return 139 "[EAF/browser] Kill selected text.")\n'
+receiving...
+received: length = 49; data = b'(return 140 "[EAF/browser] Yank selected text.")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 139 "[EAF/browser] Kill selected text.")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+received: length = 49; data = b'(return 141 "[EAF/browser] Kill selected text.")\n'
+(AutoLog) Called: EPCClientHandler._handle(b'(return 140 "[EAF/browser] Yank selected text.")\n')
+receiving...
+received: length = 49; data = b'(return 142 "[EAF/browser] Yank selected text.")\n'
+(AutoLog) Called: EPCClientHandler._handle(b'(return 141 "[EAF/browser] Kill selected text.")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+receiving...
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._handle(b'(return 142 "[EAF/browser] Yank selected text.")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 143, Symbol('eval-in-emacs'), ['eaf--update-buffer-details', 'NzNiNi04MzFiLWQ1YTctZTM3Yi1jMDU5LTQ1ZTktMTcyZQ==', 'Y24uYmluZy5jb20=', 'aHR0cDovL2NuLmJpbmcuY29tLw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 15; data = b'(return 143 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 143 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 144, Symbol('eval-in-emacs'), ['eaf--update-buffer-details', 'NzNiNi04MzFiLWQ1YTctZTM3Yi1jMDU5LTQ1ZTktMTcyZQ==', '5b6u6L2vIEJpbmcg5pCc57SiIC0g5Zu95YaF54mI', 'aHR0cDovL2NuLmJpbmcuY29tLw=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 15; data = b'(return 144 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 144 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 145, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'ZTNmMy0zZDlhLTdiZDgtYzA1My0zODJlLWNkOWUtZGM3MA=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 146, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'N2NhMC1jYjlmLTExM2YtNTU5Mi1iYmQ2LWIwMTYtNjRlOQ=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 147, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'ZTNmMy0zZDlhLTdiZDgtYzA1My0zODJlLWNkOWUtZGM3MA=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 148, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'N2NhMC1jYjlmLTExM2YtNTU5Mi1iYmQ2LWIwMTYtNjRlOQ=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 15; data = b'(return 145 t)\n'
+receiving...
+received: length = 15; data = b'(return 146 t)\n'
+receiving...
+received: length = 15; data = b'(return 147 t)\n'
+receiving...
+received: length = 15; data = b'(return 148 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 145 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._handle(b'(return 146 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._handle(b'(return 147 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._handle(b'(return 148 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+received: length = 141; data = b'(call 18 update_views ("73b6-831b-d5a7-e37b-c059-45e9-172e:98566179:960:0:960:928,e3f3-3d9a-7bd8-c053-382e-cd9e-dc70:98566179:0:0:960:928"))\n'
+(AutoLog) Called: ThreadingEPCHandler._handle(b'(call 18 update_views ("73b6-831b-d5a7-e37b-c059-45e9-172e:98566179:960:0:960:928,e3f3-3d9a-7bd8-c053-382e-cd9e-dc70:98566179:0:0:960:928"))\n')
+receiving...
+(AutoLog) Called: ThreadingEPCHandler._handle_call(18, Symbol('update_views'), ['73b6-831b-d5a7-e37b-c059-45e9-172e:98566179:960:0:960:928,e3f3-3d9a-7bd8-c053-382e-cd9e-dc70:98566179:0:0:960:928'])
+(AutoLog) Returns: ThreadingEPCHandler._handle_call(...) = ['return', 18, None]
+(AutoLog) Called: ThreadingEPCHandler._send('return', 18, None)
+(AutoLog) Returns: ThreadingEPCHandler._send(...) = None
+(AutoLog) Returns: ThreadingEPCHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 149, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'NzNiNi04MzFiLWQ1YTctZTM3Yi1jMDU5LTQ1ZTktMTcyZQ=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 15; data = b'(return 149 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 149 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+received: length = 141; data = b'(call 19 update_views ("e3f3-3d9a-7bd8-c053-382e-cd9e-dc70:98566179:0:0:960:928,73b6-831b-d5a7-e37b-c059-45e9-172e:98566179:960:0:960:921"))\n'
+(AutoLog) Called: ThreadingEPCHandler._handle(b'(call 19 update_views ("e3f3-3d9a-7bd8-c053-382e-cd9e-dc70:98566179:0:0:960:928,73b6-831b-d5a7-e37b-c059-45e9-172e:98566179:960:0:960:921"))\n')
+(AutoLog) Called: ThreadingEPCHandler._handle_call(19, Symbol('update_views'), ['e3f3-3d9a-7bd8-c053-382e-cd9e-dc70:98566179:0:0:960:928,73b6-831b-d5a7-e37b-c059-45e9-172e:98566179:960:0:960:921'])
+receiving...
+(AutoLog) Returns: ThreadingEPCHandler._handle_call(...) = ['return', 19, None]
+(AutoLog) Called: ThreadingEPCHandler._send('return', 19, None)
+(AutoLog) Returns: ThreadingEPCHandler._send(...) = None
+(AutoLog) Returns: ThreadingEPCHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 150, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 149; data = b'(return 150 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 150 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 151, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 149; data = b'(return 151 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 151 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 152, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 149; data = b'(return 152 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 152 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 153, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'NzNiNi04MzFiLWQ1YTctZTM3Yi1jMDU5LTQ1ZTktMTcyZQ=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 15; data = b'(return 153 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 153 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 154, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'NzNiNi04MzFiLWQ1YTctZTM3Yi1jMDU5LTQ1ZTktMTcyZQ=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 15; data = b'(return 154 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 154 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 155, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 149; data = b'(return 155 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 155 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 156, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 149; data = b'(return 156 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 156 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 157, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 149; data = b'(return 157 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 157 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+received: length = 83; data = b'(call 20 update_views ("e3f3-3d9a-7bd8-c053-382e-cd9e-dc70:98566179:0:0:960:928"))\n'
+(AutoLog) Called: ThreadingEPCHandler._handle(b'(call 20 update_views ("e3f3-3d9a-7bd8-c053-382e-cd9e-dc70:98566179:0:0:960:928"))\n')
+receiving...
+(AutoLog) Called: ThreadingEPCHandler._handle_call(20, Symbol('update_views'), ['e3f3-3d9a-7bd8-c053-382e-cd9e-dc70:98566179:0:0:960:928'])
+(AutoLog) Returns: ThreadingEPCHandler._handle_call(...) = ['return', 20, None]
+(AutoLog) Called: ThreadingEPCHandler._send('return', 20, None)
+(AutoLog) Returns: ThreadingEPCHandler._send(...) = None
+(AutoLog) Returns: ThreadingEPCHandler._handle(...) = None
+received: length = 28; data = b'(call 21 update_views (""))\n'
+(AutoLog) Called: ThreadingEPCHandler._handle(b'(call 21 update_views (""))\n')
+receiving...
+(AutoLog) Called: ThreadingEPCHandler._handle_call(21, Symbol('update_views'), [''])
+(AutoLog) Returns: ThreadingEPCHandler._handle_call(...) = ['return', 21, None]
+(AutoLog) Called: ThreadingEPCHandler._send('return', 21, None)
+(AutoLog) Returns: ThreadingEPCHandler._send(...) = None
+(AutoLog) Returns: ThreadingEPCHandler._handle(...) = None
+received: length = 28; data = b'(call 22 update_views (""))\n'
+(AutoLog) Called: ThreadingEPCHandler._handle(b'(call 22 update_views (""))\n')
+(AutoLog) Called: ThreadingEPCHandler._handle_call(22, Symbol('update_views'), [''])
+(AutoLog) Returns: ThreadingEPCHandler._handle_call(...) = ['return', 22, None]
+(AutoLog) Called: ThreadingEPCHandler._send('return', 22, None)
+receiving...
+(AutoLog) Returns: ThreadingEPCHandler._send(...) = None
+(AutoLog) Returns: ThreadingEPCHandler._handle(...) = None
+received: length = 28; data = b'(call 23 update_views (""))\n'
+(AutoLog) Called: ThreadingEPCHandler._handle(b'(call 23 update_views (""))\n')
+receiving...
+(AutoLog) Called: ThreadingEPCHandler._handle_call(23, Symbol('update_views'), [''])
+(AutoLog) Returns: ThreadingEPCHandler._handle_call(...) = ['return', 23, None]
+(AutoLog) Called: ThreadingEPCHandler._send('return', 23, None)
+(AutoLog) Returns: ThreadingEPCHandler._send(...) = None
+(AutoLog) Returns: ThreadingEPCHandler._handle(...) = None
+received: length = 28; data = b'(call 24 update_views (""))\n'
+(AutoLog) Called: ThreadingEPCHandler._handle(b'(call 24 update_views (""))\n')
+receiving...
+(AutoLog) Called: ThreadingEPCHandler._handle_call(24, Symbol('update_views'), [''])
+(AutoLog) Returns: ThreadingEPCHandler._handle_call(...) = ['return', 24, None]
+(AutoLog) Called: ThreadingEPCHandler._send('return', 24, None)
+(AutoLog) Returns: ThreadingEPCHandler._send(...) = None
+(AutoLog) Returns: ThreadingEPCHandler._handle(...) = None
+received: length = 28; data = b'(call 25 update_views (""))\n'
+(AutoLog) Called: ThreadingEPCHandler._handle(b'(call 25 update_views (""))\n')
+receiving...
+(AutoLog) Called: ThreadingEPCHandler._handle_call(25, Symbol('update_views'), [''])
+(AutoLog) Returns: ThreadingEPCHandler._handle_call(...) = ['return', 25, None]
+(AutoLog) Called: ThreadingEPCHandler._send('return', 25, None)
+(AutoLog) Returns: ThreadingEPCHandler._send(...) = None
+(AutoLog) Returns: ThreadingEPCHandler._handle(...) = None
+received: length = 84; data = b'(call 26 update_views ("73b6-831b-d5a7-e37b-c059-45e9-172e:98566179:0:0:1920:921"))\n'
+(AutoLog) Called: ThreadingEPCHandler._handle(b'(call 26 update_views ("73b6-831b-d5a7-e37b-c059-45e9-172e:98566179:0:0:1920:921"))\n')
+receiving...
+(AutoLog) Called: ThreadingEPCHandler._handle_call(26, Symbol('update_views'), ['73b6-831b-d5a7-e37b-c059-45e9-172e:98566179:0:0:1920:921'])
+(AutoLog) Returns: ThreadingEPCHandler._handle_call(...) = ['return', 26, None]
+(AutoLog) Called: ThreadingEPCHandler._send('return', 26, None)
+(AutoLog) Returns: ThreadingEPCHandler._send(...) = None
+(AutoLog) Returns: ThreadingEPCHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 158, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 149; data = b'(return 158 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 158 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 159, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'NzNiNi04MzFiLWQ1YTctZTM3Yi1jMDU5LTQ1ZTktMTcyZQ=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 15; data = b'(return 159 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 159 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 160, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'NzNiNi04MzFiLWQ1YTctZTM3Yi1jMDU5LTQ1ZTktMTcyZQ=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 15; data = b'(return 160 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 160 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 161, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'NzNiNi04MzFiLWQ1YTctZTM3Yi1jMDU5LTQ1ZTktMTcyZQ=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 15; data = b'(return 161 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 161 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 162, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'NzNiNi04MzFiLWQ1YTctZTM3Yi1jMDU5LTQ1ZTktMTcyZQ=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 15; data = b'(return 162 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 162 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 163, Symbol('eval-in-emacs'), ['eaf--update-buffer-details', 'NzNiNi04MzFiLWQ1YTctZTM3Yi1jMDU5LTQ1ZTktMTcyZQ==', 'Y24uYmluZy5jb20vdmlkZW9zL3NlYXJjaD9xPTEmRk9STT1CVkxIMQ==', 'aHR0cDovL2NuLmJpbmcuY29tL3ZpZGVvcy9zZWFyY2g/cT0xJkZPUk09QlZMSDE='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 15; data = b'(return 163 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 163 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 164, Symbol('eval-in-emacs'), ['eaf--update-buffer-details', 'NzNiNi04MzFiLWQ1YTctZTM3Yi1jMDU5LTQ1ZTktMTcyZQ==', 'MSAtIOWbveWGheeJiCBCaW5nIHZpZGVv', 'aHR0cDovL2NuLmJpbmcuY29tL3ZpZGVvcy9zZWFyY2g/cT0xJkZPUk09QlZMSDE='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 15; data = b'(return 164 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 164 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 165, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'NzNiNi04MzFiLWQ1YTctZTM3Yi1jMDU5LTQ1ZTktMTcyZQ=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 15; data = b'(return 165 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 165 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 166, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'NzNiNi04MzFiLWQ1YTctZTM3Yi1jMDU5LTQ1ZTktMTcyZQ=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 15; data = b'(return 166 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 166 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 167, Symbol('eval-in-emacs'), ['eaf--show-message', 'S2lsbCBzZWxlY3RlZCB0ZXh0Lg=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 168, Symbol('eval-in-emacs'), ['eaf--show-message', 'WWFuayBzZWxlY3RlZCB0ZXh0Lg=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 169, Symbol('eval-in-emacs'), ['eaf--show-message', 'S2lsbCBzZWxlY3RlZCB0ZXh0Lg=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 170, Symbol('eval-in-emacs'), ['eaf--show-message', 'WWFuayBzZWxlY3RlZCB0ZXh0Lg=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 49; data = b'(return 167 "[EAF/browser] Kill selected text.")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 167 "[EAF/browser] Kill selected text.")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+received: length = 49; data = b'(return 168 "[EAF/browser] Yank selected text.")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 168 "[EAF/browser] Yank selected text.")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 171, Symbol('eval-in-emacs'), ['eaf--create-new-browser-buffer', 'NjZkOC00YWZjLTY3NTctMjkwYi0zNDBiLTE0ZTMtNTZkOQ=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 49; data = b'(return 169 "[EAF/browser] Kill selected text.")\n'
+receiving...
+received: length = 49; data = b'(return 170 "[EAF/browser] Yank selected text.")\n'
+(AutoLog) Called: EPCClientHandler._handle(b'(return 169 "[EAF/browser] Kill selected text.")\n')
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 170 "[EAF/browser] Yank selected text.")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+received: length = 84; data = b'(call 27 update_views ("66d8-4afc-6757-290b-340b-14e3-56d9:98566179:0:0:1920:921"))\n'
+(AutoLog) Called: ThreadingEPCHandler._handle(b'(call 27 update_views ("66d8-4afc-6757-290b-340b-14e3-56d9:98566179:0:0:1920:921"))\n')
+receiving...
+(AutoLog) Called: ThreadingEPCHandler._handle_call(27, Symbol('update_views'), ['66d8-4afc-6757-290b-340b-14e3-56d9:98566179:0:0:1920:921'])
+(AutoLog) Returns: ThreadingEPCHandler._handle_call(...) = ['return', 27, None]
+(AutoLog) Called: ThreadingEPCHandler._send('return', 27, None)
+(AutoLog) Returns: ThreadingEPCHandler._send(...) = None
+(AutoLog) Returns: ThreadingEPCHandler._handle(...) = None
+received: length = 79; data = b'(return 171 #<buffer Browser Popup Window 66d8-4afc-6757-290b-340b-14e3-56d9>)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 171 #<buffer Browser Popup Window 66d8-4afc-6757-290b-340b-14e3-56d9>)\n')
+(return 171 ...): Got too many arguments in the reply: [Symbol('#<buffer'), Symbol('Browser'), Symbol('Popup'), Symbol('Window'), Symbol('66d8-4afc-6757-290b-340b-14e3-56d9>')]
+EPCError("(return 171 ...): Got too many arguments in the reply: [Symbol('#<buffer'), Symbol('Browser'), Symbol('Popup'), Symbol('Window'), Symbol('66d8-4afc-6757-290b-340b-14e3-56d9>')]")
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 172, Symbol('eval-in-emacs'), ['eaf--update-buffer-details', 'NjZkOC00YWZjLTY3NTctMjkwYi0zNDBiLTE0ZTMtNTZkOQ==', 'aHR0cHM6Ly92LnlvdWt1LmNvbS92X3Nob3cvaWRfWE1URTBPVGszTXpFeS5odG1s', 'aHR0cHM6Ly92LnlvdWt1LmNvbS92X3Nob3cvaWRfWE1URTBPVGszTXpFeS5odG1s'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 15; data = b'(return 172 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 172 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 173, Symbol('eval-in-emacs'), ['eaf--update-buffer-details', 'NjZkOC00YWZjLTY3NTctMjkwYi0zNDBiLTE0ZTMtNTZkOQ==', '54ix5oOF5YWs5a+TIOesrOS4gOWtoyDnrKwx6ZuGIOeIseaDheWFrOWvkyDnrKzkuIDlraMgMDEt55S16KeG5YmnLemrmOa4heWujOaVtOato+eJiOinhumikeWcqOe6v+ingueciy3kvJjphbc=', 'aHR0cHM6Ly92LnlvdWt1LmNvbS92X3Nob3cvaWRfWE1URTBPVGszTXpFeS5odG1s'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 15; data = b'(return 173 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 173 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+received: length = 83; data = b'(call 28 update_views ("66d8-4afc-6757-290b-340b-14e3-56d9:98566179:0:0:960:921"))\n'
+(AutoLog) Called: ThreadingEPCHandler._handle(b'(call 28 update_views ("66d8-4afc-6757-290b-340b-14e3-56d9:98566179:0:0:960:921"))\n')
+receiving...
+(AutoLog) Called: ThreadingEPCHandler._handle_call(28, Symbol('update_views'), ['66d8-4afc-6757-290b-340b-14e3-56d9:98566179:0:0:960:921'])
+(AutoLog) Returns: ThreadingEPCHandler._handle_call(...) = ['return', 28, None]
+(AutoLog) Called: ThreadingEPCHandler._send('return', 28, None)
+(AutoLog) Returns: ThreadingEPCHandler._send(...) = None
+(AutoLog) Returns: ThreadingEPCHandler._handle(...) = None
+received: length = 83; data = b'(call 29 update_views ("66d8-4afc-6757-290b-340b-14e3-56d9:98566179:0:0:960:928"))\n'
+(AutoLog) Called: ThreadingEPCHandler._handle(b'(call 29 update_views ("66d8-4afc-6757-290b-340b-14e3-56d9:98566179:0:0:960:928"))\n')
+receiving...
+(AutoLog) Called: ThreadingEPCHandler._handle_call(29, Symbol('update_views'), ['66d8-4afc-6757-290b-340b-14e3-56d9:98566179:0:0:960:928'])
+(AutoLog) Returns: ThreadingEPCHandler._handle_call(...) = ['return', 29, None]
+(AutoLog) Called: ThreadingEPCHandler._send('return', 29, None)
+(AutoLog) Returns: ThreadingEPCHandler._send(...) = None
+(AutoLog) Returns: ThreadingEPCHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 174, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'NjZkOC00YWZjLTY3NTctMjkwYi0zNDBiLTE0ZTMtNTZkOQ=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 175, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'NzNiNi04MzFiLWQ1YTctZTM3Yi1jMDU5LTQ1ZTktMTcyZQ=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 15; data = b'(return 174 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 174 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+received: length = 15; data = b'(return 175 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 175 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 176, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'NjZkOC00YWZjLTY3NTctMjkwYi0zNDBiLTE0ZTMtNTZkOQ=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 177, Symbol('eval-in-emacs'), ['eaf-focus-buffer', 'NzNiNi04MzFiLWQ1YTctZTM3Yi1jMDU5LTQ1ZTktMTcyZQ=='])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 15; data = b'(return 176 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 176 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+received: length = 15; data = b'(return 177 t)\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 177 t)\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 178, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 149; data = b'(return 178 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 178 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 179, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 149; data = b'(return 179 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 179 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 180, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 149; data = b'(return 180 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 180 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 181, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 149; data = b'(return 181 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 181 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+received: length = 83; data = b'(call 30 update_views ("66d8-4afc-6757-290b-340b-14e3-56d9:98566179:0:0:960:928"))\n'
+(AutoLog) Called: ThreadingEPCHandler._handle(b'(call 30 update_views ("66d8-4afc-6757-290b-340b-14e3-56d9:98566179:0:0:960:928"))\n')
+receiving...
+(AutoLog) Called: ThreadingEPCHandler._handle_call(30, Symbol('update_views'), ['66d8-4afc-6757-290b-340b-14e3-56d9:98566179:0:0:960:928'])
+(AutoLog) Returns: ThreadingEPCHandler._handle_call(...) = ['return', 30, None]
+(AutoLog) Called: ThreadingEPCHandler._send('return', 30, None)
+(AutoLog) Returns: ThreadingEPCHandler._send(...) = None
+(AutoLog) Returns: ThreadingEPCHandler._handle(...) = None
+received: length = 141; data = b'(call 31 update_views ("66d8-4afc-6757-290b-340b-14e3-56d9:98566179:0:0:960:928,66d8-4afc-6757-290b-340b-14e3-56d9:98566179:960:0:960:921"))\n'
+(AutoLog) Called: ThreadingEPCHandler._handle(b'(call 31 update_views ("66d8-4afc-6757-290b-340b-14e3-56d9:98566179:0:0:960:928,66d8-4afc-6757-290b-340b-14e3-56d9:98566179:960:0:960:921"))\n')
+receiving...
+(AutoLog) Called: ThreadingEPCHandler._handle_call(31, Symbol('update_views'), ['66d8-4afc-6757-290b-340b-14e3-56d9:98566179:0:0:960:928,66d8-4afc-6757-290b-340b-14e3-56d9:98566179:960:0:960:921'])
+(AutoLog) Returns: ThreadingEPCHandler._handle_call(...) = ['return', 31, None]
+(AutoLog) Called: ThreadingEPCHandler._send('return', 31, None)
+(AutoLog) Returns: ThreadingEPCHandler._send(...) = None
+(AutoLog) Returns: ThreadingEPCHandler._handle(...) = None
+received: length = 141; data = b'(call 32 update_views ("66d8-4afc-6757-290b-340b-14e3-56d9:98566179:0:0:960:928,66d8-4afc-6757-290b-340b-14e3-56d9:98566179:960:0:960:928"))\n'
+(AutoLog) Called: ThreadingEPCHandler._handle(b'(call 32 update_views ("66d8-4afc-6757-290b-340b-14e3-56d9:98566179:0:0:960:928,66d8-4afc-6757-290b-340b-14e3-56d9:98566179:960:0:960:928"))\n')
+receiving...
+(AutoLog) Called: ThreadingEPCHandler._handle_call(32, Symbol('update_views'), ['66d8-4afc-6757-290b-340b-14e3-56d9:98566179:0:0:960:928,66d8-4afc-6757-290b-340b-14e3-56d9:98566179:960:0:960:928'])
+(AutoLog) Returns: ThreadingEPCHandler._handle_call(...) = ['return', 32, None]
+(AutoLog) Called: ThreadingEPCHandler._send('return', 32, None)
+(AutoLog) Returns: ThreadingEPCHandler._send(...) = None
+(AutoLog) Returns: ThreadingEPCHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 182, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 149; data = b'(return 182 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 182 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 183, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 149; data = b'(return 183 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 183 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 184, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 149; data = b'(return 184 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 184 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 185, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 149; data = b'(return 185 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 185 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 186, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 149; data = b'(return 186 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 186 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 187, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 149; data = b'(return 187 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 187 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 188, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+received: length = 149; data = b'(return 188 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n'
+receiving...
+(AutoLog) Called: EPCClientHandler._handle(b'(return 188 "fish: Expected a variable name after this $.\nwmctrl -i -a $(wmctrl -lp | awk -vpid=$PID \'$3==63094 {print $1; exit}\')\n             ^\n")\n')
+(AutoLog) Returns: EPCClientHandler._handle(...) = None
+received: length = 85; data = b'(call 33 update_views ("66d8-4afc-6757-290b-340b-14e3-56d9:98566179:960:0:960:928"))\n'
+(AutoLog) Called: ThreadingEPCHandler._handle(b'(call 33 update_views ("66d8-4afc-6757-290b-340b-14e3-56d9:98566179:960:0:960:928"))\n')
+receiving...
+(AutoLog) Called: ThreadingEPCHandler._handle_call(33, Symbol('update_views'), ['66d8-4afc-6757-290b-340b-14e3-56d9:98566179:960:0:960:928'])
+(AutoLog) Returns: ThreadingEPCHandler._handle_call(...) = ['return', 33, None]
+(AutoLog) Called: ThreadingEPCHandler._send('return', 33, None)
+(AutoLog) Returns: ThreadingEPCHandler._send(...) = None
+(AutoLog) Returns: ThreadingEPCHandler._handle(...) = None
+received: length = 85; data = b'(call 34 update_views ("66d8-4afc-6757-290b-340b-14e3-56d9:98566179:960:0:960:928"))\n'
+(AutoLog) Called: ThreadingEPCHandler._handle(b'(call 34 update_views ("66d8-4afc-6757-290b-340b-14e3-56d9:98566179:960:0:960:928"))\n')
+receiving...
+(AutoLog) Called: ThreadingEPCHandler._handle_call(34, Symbol('update_views'), ['66d8-4afc-6757-290b-340b-14e3-56d9:98566179:960:0:960:928'])
+(AutoLog) Returns: ThreadingEPCHandler._handle_call(...) = ['return', 34, None]
+(AutoLog) Called: ThreadingEPCHandler._send('return', 34, None)
+(AutoLog) Returns: ThreadingEPCHandler._send(...) = None
+(AutoLog) Returns: ThreadingEPCHandler._handle(...) = None
+received: length = 85; data = b'(call 35 update_views ("66d8-4afc-6757-290b-340b-14e3-56d9:98566179:960:0:960:444"))\n'
+(AutoLog) Called: ThreadingEPCHandler._handle(b'(call 35 update_views ("66d8-4afc-6757-290b-340b-14e3-56d9:98566179:960:0:960:444"))\n')
+(AutoLog) Called: ThreadingEPCHandler._handle_call(35, Symbol('update_views'), ['66d8-4afc-6757-290b-340b-14e3-56d9:98566179:960:0:960:444'])
+(AutoLog) Returns: ThreadingEPCHandler._handle_call(...) = ['return', 35, None]
+(AutoLog) Called: ThreadingEPCHandler._send('return', 35, None)
+receiving...
+(AutoLog) Returns: ThreadingEPCHandler._send(...) = None
+(AutoLog) Returns: ThreadingEPCHandler._handle(...) = None
+received: length = 85; data = b'(call 36 update_views ("66d8-4afc-6757-290b-340b-14e3-56d9:98566179:960:0:960:444"))\n'
+(AutoLog) Called: ThreadingEPCHandler._handle(b'(call 36 update_views ("66d8-4afc-6757-290b-340b-14e3-56d9:98566179:960:0:960:444"))\n')
+receiving...
+(AutoLog) Called: ThreadingEPCHandler._handle_call(36, Symbol('update_views'), ['66d8-4afc-6757-290b-340b-14e3-56d9:98566179:960:0:960:444'])
+(AutoLog) Returns: ThreadingEPCHandler._handle_call(...) = ['return', 36, None]
+(AutoLog) Called: ThreadingEPCHandler._send('return', 36, None)
+(AutoLog) Returns: ThreadingEPCHandler._send(...) = None
+(AutoLog) Returns: ThreadingEPCHandler._handle(...) = None
+received: length = 85; data = b'(call 37 update_views ("66d8-4afc-6757-290b-340b-14e3-56d9:98566179:960:0:960:840"))\n'
+(AutoLog) Called: ThreadingEPCHandler._handle(b'(call 37 update_views ("66d8-4afc-6757-290b-340b-14e3-56d9:98566179:960:0:960:840"))\n')
+receiving...
+(AutoLog) Called: ThreadingEPCHandler._handle_call(37, Symbol('update_views'), ['66d8-4afc-6757-290b-340b-14e3-56d9:98566179:960:0:960:840'])
+(AutoLog) Returns: ThreadingEPCHandler._handle_call(...) = ['return', 37, None]
+(AutoLog) Called: ThreadingEPCHandler._send('return', 37, None)
+(AutoLog) Returns: ThreadingEPCHandler._send(...) = None
+(AutoLog) Returns: ThreadingEPCHandler._handle(...) = None
+received: length = 25; data = b'(call 38 kill_emacs nil)\n'
+(AutoLog) Called: ThreadingEPCHandler._handle(b'(call 38 kill_emacs nil)\n')
+receiving...
+(AutoLog) Called: ThreadingEPCHandler._handle_call(38, Symbol('kill_emacs'), [])
+(AutoLog) Returns: ThreadingEPCHandler._handle_call(...) = ['return', 38, None]
+(AutoLog) Called: ThreadingEPCHandler._send('return', 38, None)
+(AutoLog) Returns: ThreadingEPCHandler._send(...) = None
+(AutoLog) Returns: ThreadingEPCHandler._handle(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 189, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 190, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 191, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 192, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 193, Symbol('eval-in-emacs'), ['eaf-activate-emacs-window'])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 194, Symbol('eval-in-emacs'), ['eaf--update-buffer-details', 'OGZkNS1mMDE4LTRiZmEtYzk2Yi0wN2Y3LWI2NzAtNzk0Yw==', '', ''])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 195, Symbol('eval-in-emacs'), ['eaf--update-buffer-details', 'N2NhMC1jYjlmLTExM2YtNTU5Mi1iYmQ2LWIwMTYtNjRlOQ==', '', ''])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 196, Symbol('eval-in-emacs'), ['eaf--update-buffer-details', 'ZTNmMy0zZDlhLTdiZDgtYzA1My0zODJlLWNkOWUtZGM3MA==', '', ''])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 197, Symbol('eval-in-emacs'), ['eaf--update-buffer-details', 'NzNiNi04MzFiLWQ1YTctZTM3Yi1jMDU5LTQ1ZTktMTcyZQ==', '', ''])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
+(AutoLog) Called: EPCClientHandler._send('call', 198, Symbol('eval-in-emacs'), ['eaf--update-buffer-details', 'NjZkOC00YWZjLTY3NTctMjkwYi0zNDBiLTE0ZTMtNTZkOQ==', '', ''])
+(AutoLog) Returns: EPCClientHandler._send(...) = None
