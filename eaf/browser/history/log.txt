@@ -1,5 +1,5 @@
+微软 Bing 搜索 - 国内版ᛝhttp://cn.bing.com/ᛡ3.5
 Installing and getting started with Spacemacs- Emacs tutorial_哔哩哔哩 (゜-゜)つロ 干杯~-bilibiliᛝhttps://www.bilibili.com/video/BV1tt411j7Yb?from=search&seid=1861284816845383667ᛡ2.5
-微软 Bing 搜索 - 国内版ᛝhttp://cn.bing.com/ᛡ2.5
 百度一下，你就知道ᛝhttps://www.baidu.com/ᛡ1.5
 www.bing.comᛝhttp://www.bing.com/ᛡ1.5
 emacs-application-framework: EAF 是一个全新的图形应用框架，通过扩展Emacs的多媒体能力，最终达到 Live in Emacs 的终极目标。ᛝhttps://gitee.com/KiteAB/emacs-application-framework?_from=gitee_search#installᛡ1.5
@@ -15,3 +15,7 @@ Emacs - 搜索结果 - 哔哩哔哩弹幕视频网 - ( ゜- ゜)つロ 乾杯~ -
 〔合集〕大忙人一起读《Emacs Lisp Intro》_哔哩哔哩 (゜-゜)つロ 干杯~-bilibiliᛝhttps://www.bilibili.com/video/BV1v5411N7db?from=search&seid=15389188716395830466ᛡ1.5
 1 - 国内版 Bing videoᛝhttp://cn.bing.com/videos/search?q=1&FORM=BVLH1ᛡ1.5
 爱情公寓 第一季 第1集 爱情公寓 第一季 01-电视剧-高清完整正版视频在线观看-优酷ᛝhttps://v.youku.com/v_show/id_XMTE0OTk3MzEy.htmlᛡ1.5
+this is eaf - 国内版 Bingᛝhttp://cn.bing.com/search?q=this+is+eaf&qs=n&form=QBLH&sp=-1&pq=this+is+eaf&sc=0-11&sk=&cvid=18AF76A4C9574A208180C3A6FBE2BE93ᛡ1.5
+Gitee - 基于 Git 的代码托管和研发协作平台ᛝhttps://gitee.com/ᛡ1.5
+MuqiuEmacs - Giteeᛝhttps://search.gitee.com/?skin=rec&type=repository&q=MuqiuEmacs&repo=&reponame=ᛡ1.5
+韩暮秋/emacs.dᛝhttps://gitee.com/muqiu-han/emacs.d?_from=gitee_searchᛡ1.5

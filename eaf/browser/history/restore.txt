@@ -1,5 +1,2 @@
-https://www.bilibili.com/?spm_id_from=333.788.b_696e7465726e6174696f6e616c486561646572.1
-https://search.bilibili.com/all?keyword=Emacs&from_source=nav_suggest_new
-https://www.bilibili.com/video/BV1v5411N7db?from=search&seid=15389188716395830466
-http://cn.bing.com/videos/search?q=1&FORM=BVLH1
-https://v.youku.com/v_show/id_XMTE0OTk3MzEy.html
+https://search.gitee.com/?skin=rec&type=repository&q=MuqiuEmacs&repo=&reponame=
+https://gitee.com/muqiu-han/emacs.d?_from=gitee_search

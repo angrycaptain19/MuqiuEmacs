@@ -11,3 +11,6 @@ https://search.bilibili.com/all?keyword=Emacs&from_source=nav_suggest_new
 https://www.bilibili.com/video/BV1v5411N7db?from=search&seid=15389188716395830466
 http://cn.bing.com/videos/search?q=1&FORM=BVLH1
 https://v.youku.com/v_show/id_XMTE0OTk3MzEy.html
+http://cn.bing.com/search?q=this+is+eaf&qs=n&form=QBLH&sp=-1&pq=this+is+eaf&sc=0-11&sk=&cvid=18AF76A4C9574A208180C3A6FBE2BE93
+https://search.gitee.com/?skin=rec&type=repository&q=MuqiuEmacs&repo=&reponame=
+https://gitee.com/muqiu-han/emacs.d?_from=gitee_search#cc
