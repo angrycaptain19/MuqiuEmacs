@@ -1,231 +1,475 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-
+<!doctype html>
+<html>
 <head>
-<title>README.html</title>
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>README</title><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; --title-bar-height:20px; }
+.mac-os-11 { --title-bar-height:28px; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+.typora-export .task-list-item input { pointer-events: none; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
+button, input, select, textarea { color: inherit; font: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror-linenumber { user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li blockquote { margin: 1rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  .typora-export #write { break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  .is-mac table { break-inside: avoid; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+.MathJax_ref { fill: currentcolor; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
+.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none 0s ease 0s; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
+mark .md-meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
+@media print {
+  .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
+}
+.md-diagram-panel .messageText { stroke: none !important; }
+.md-diagram-panel .start-state { fill: var(--node-fill); }
+.md-diagram-panel .edgeLabel rect { opacity: 1 !important; }
+.md-require-zoom-fix foreignobject { font-size: var(--mermaid-font-zoom); }
 
+
+html {
+	font-size: 19px;
+}
+
+html, body {
+	margin: auto;
+	background: #fefefe;
+}
+body {
+	font-family: "Vollkorn", Palatino, Times;
+	color: #333;
+	line-height: 1.4;
+	text-align: justify;
+}
+
+#write {
+	max-width: 960px;
+	margin: 0 auto;
+	margin-bottom: 2em;
+	line-height: 1.53;
+	padding-top: 40px;
+}
+
+@media only screen and (min-width: 1400px) {
+	#write {
+		max-width: 1100px;
+	}
+}
+
+@media print {
+	html {
+		font-size: 13px;
+	}
+}
+
+/* Typography
+-------------------------------------------------------- */
+
+#write>h1:first-child,
+h1 {
+	margin-top: 1.6em;
+	font-weight: normal;
+}
+
+h1 {
+	font-size:3em;
+}
+
+h2 {
+	margin-top:2em;
+	font-weight: normal;
+}
+
+h3 {
+	font-weight: normal;
+	font-style: italic;
+	margin-top: 3em;
+}
+
+h1, 
+h2, 
+h3{
+	text-align: center;
+}
+
+h2:after{
+	border-bottom: 1px solid #2f2f2f;
+    content: '';
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+    height: 1px;
+}
+
+h1+h2, h2+h3 {
+	margin-top: 0.83em;
+}
+
+p,
+.mathjax-block {
+	margin-top: 0;
+	-webkit-hypens: auto;
+	-moz-hypens: auto;
+	hyphens: auto;
+}
+ul {
+	list-style: square;
+	padding-left: 1.2em;
+}
+ol {
+	padding-left: 1.2em;
+}
+blockquote {
+	margin-left: 1em;
+	padding-left: 1em;
+	border-left: 1px solid #ddd;
+}
+code,
+pre {
+	font-family: "Consolas", "Menlo", "Monaco", monospace, serif;
+	font-size: .9em;
+	background: white;
+}
+.md-fences{
+	margin-left: 1em;
+	padding-left: 1em;
+	border: 1px solid #ddd;
+	padding-bottom: 8px;
+	padding-top: 6px;
+	margin-bottom: 1.5em;
+}
+
+a {
+	color: #2484c1;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a img {
+	border: none;
+}
+h1 a,
+h1 a:hover {
+	color: #333;
+	text-decoration: none;
+}
+hr {
+	color: #ddd;
+	height: 1px;
+	margin: 2em 0;
+	border-top: solid 1px #ddd;
+	border-bottom: none;
+	border-left: 0;
+	border-right: 0;
+}
+.ty-table-edit {
+	background: #ededed;
+    padding-top: 4px;
+}
+table {
+	margin-bottom: 1.333333rem
+}
+table th,
+table td {
+	padding: 8px;
+	line-height: 1.333333rem;
+	vertical-align: top;
+	border-top: 1px solid #ddd
+}
+table th {
+	font-weight: bold
+}
+table thead th {
+	vertical-align: bottom
+}
+table caption+thead tr:first-child th,
+table caption+thead tr:first-child td,
+table colgroup+thead tr:first-child th,
+table colgroup+thead tr:first-child td,
+table thead:first-child tr:first-child th,
+table thead:first-child tr:first-child td {
+	border-top: 0
+}
+table tbody+tbody {
+	border-top: 2px solid #ddd
+}
+
+.task-list{
+	padding:0;
+}
+
+.md-task-list-item {
+	padding-left: 1.6rem;
+}
+
+.md-task-list-item > input:before {
+	content: '\221A';
+	display: inline-block;
+	width: 1.33333333rem;
+  	height: 1.6rem;
+	vertical-align: middle;
+	text-align: center;
+	color: #ddd;
+	background-color: #fefefe;
+}
+
+.md-task-list-item > input:checked:before,
+.md-task-list-item > input[checked]:before{
+	color: inherit;
+}
+.md-tag {
+	color: inherit;
+	font: inherit;
+}
+#write pre.md-meta-block {
+	min-height: 35px;
+	padding: 0.5em 1em;
+}
+#write pre.md-meta-block {
+	white-space: pre;
+	background: #f8f8f8;
+	border: 0px;
+	color: #999;
+	
+	width: 100vw;
+	max-width: calc(100% + 60px);
+	margin-left: -30px;
+	border-left: 30px #f8f8f8 solid;
+	border-right: 30px #f8f8f8 solid;
+
+	margin-bottom: 2em;
+	margin-top: -1.3333333333333rem;
+	padding-top: 26px;
+	padding-bottom: 10px;
+	line-height: 1.8em;
+	font-size: 0.9em;
+	font-size: 0.76em;
+	padding-left: 0;
+}
+.md-img-error.md-image>.md-meta{
+	vertical-align: bottom;
+}
+#write>h5.md-focus:before {
+	top: 2px;
+}
+
+.md-toc {
+	margin-top: 40px;
+}
+
+.md-toc-content {
+	padding-bottom: 20px;
+}
+
+.outline-expander:before {
+	color: inherit;
+	font-size: 14px;
+	top: auto;
+	content: "\f0da";
+	font-family: FontAwesome;
+}
+
+.outline-expander:hover:before,
+.outline-item-open>.outline-item>.outline-expander:before {
+  	content: "\f0d7";
+}
+
+/** source code mode */
+#typora-source {
+	font-family: Courier, monospace;
+    color: #6A6A6A;
+}
+
+.html-for-mac #typora-sidebar {
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.cm-s-typora-default .cm-header, 
+.cm-s-typora-default .cm-property,
+.CodeMirror.cm-s-typora-default div.CodeMirror-cursor {
+	color: #428bca;
+}
+
+.cm-s-typora-default .cm-atom, .cm-s-typora-default .cm-number {
+	color: #777777;
+}
+
+.typora-node .file-list-item-parent-loc, 
+.typora-node .file-list-item-time, 
+.typora-node .file-list-item-summary {
+	font-family: arial, sans-serif;
+}
+
+.md-task-list-item>input {
+    margin-left: -1.3em;
+    margin-top: calc(1rem - 12px);
+}
+
+.md-mathjax-midline {
+	background: #fafafa;
+}
+
+.md-fences .code-tooltip {
+	bottom: -2em !important;
+}
+
+.dropdown-menu .divider {
+	border-color: #e5e5e5;
+}
+
+
+</style>
 </head>
-
-<body>
-
-<h1>MuqiuEmacs</h1>
-
-<blockquote><p>Version : 2021.2.22.3<br/>
-Author : MuqiuHan<br/>
-Email : muqiu-han@outlook.com<br/>
-QQGroup: 780653172</p></blockquote>
-
-<h2>Introduction</h2>
-
-<blockquote><p>MuqiuEmacs是个模块化的，精简的Emacs配置</p></blockquote>
-
-<ul>
-<li>启动页 : dashboard/default/none</li>
-<li>文件树 : treemacs/neotree/speedbar/dired</li>
-<li>主题界面 : doom-themes</li>
-<li>状态栏 : doom-modeline/powerline/default</li>
-<li>邮件收发 : gnus</li>
-<li>语言支持 : C/C++/Python/CommonLisp/Hylang/Markdown/Web(HTML/CSS/JavaScript) __
-
-<ul>
-<li>即将支持: Clojure/Java/Rust</li>
-</ul>
-</li>
-</ul>
-
-
-<hr />
-
-<h2>更新信息</h2>
-
-<ol>
-<li>更新C/C++补全为LSP</li>
-<li>更新markdown模式</li>
-</ol>
-
-
-<h2>语言支持</h2>
-
-<h3>Markdown</h3>
-
-<blockquote><p>打开markdown文件进入markdown模式
-+ 打开另一个buffer预览markdown: <code>C-c p</code></p></blockquote>
-
-<h3>Hylang</h3>
-
-<blockquote><p>需要pip install jedhy后使用
-+ 打开Hy-shell: <code>M-RET</code>
-+ 执行当前buffer: <code>C-c b</code>
-+ 执行选中的语句: <code>C-r c</code></p></blockquote>
-
-<h3>CommonLisp</h3>
-
-<h4>slime</h4>
-
-<blockquote><p>在使用之前需要在操作系统中安装slime</p></blockquote>
-
-<ul>
-<li>加载当前文件: <code>C-c l</code></li>
-<li>编译当前文件: <code>C-c c</code></li>
-</ul>
-
-
-<h3>Python</h3>
-
-<blockquote><p>在使用Python之前，要需pip install jedi elpy rope pylint</p></blockquote>
-
-<h4>补全</h4>
-
-<ul>
-<li>补全后端使用anaconda</li>
-<li><p>自动扩展: <code>C-c k</code></p>
-
-<blockquote><p>例如: 输入for, 摁下快捷键后自动补全for形式</p></blockquote></li>
-<li><p>重构工具: <code>C-c o</code></p>
-
-<blockquote><p>例如: 选中字符串后，摁下快捷键选中当前文件中所有这个字符串</p></blockquote></li>
-<li><p>语法检查flycheck</p></li>
-</ul>
-
-
-<h3>Java</h3>
-
-<h4>补全</h4>
-
-<ul>
-<li>lsp-java</li>
-<li>lsp-javacomp</li>
-</ul>
-
-
-<p>注意: 在使用之前需要执行: (lsp-javacomp-install-server)</p>
-
-<h3>C/C++</h3>
-
-<h4>语法检查</h4>
-
-<ul>
-<li>flycheck</li>
-</ul>
-
-
-<h4>补全</h4>
-
-<ul>
-<li>ccls</li>
-<li>company-lsp</li>
-</ul>
-
-
-<h4>gtags</h4>
-
-<h5>依赖</h5>
-
-<blockquote><p>在使用gtags之前，系统需要有这些软件包
-+ global
-+ ggtags</p>
-
-<p>在使用gtags之前，需要在你的工程目录下面执行gtags命令，生成三个文件: GPATH GRTAGS GTAGS</p></blockquote>
-
-<h5>使用方法</h5>
-
-<ol>
-<li><p>从调用一个函数的地方跳转到函数的定义的地方
+<body class='typora-export'>
+<div id='write'  class=''><h1><a name="muqiuemacs" class="md-header-anchor"></a><span>MuqiuEmacs</span></h1><blockquote><p><span>Version : 2021.2.22.3</span><br/><span>Author : MuqiuHan</span><br/><span>Email : </span><a href='mailto:muqiu-han@outlook.com' target='_blank' class='url'>muqiu-han@outlook.com</a><span></span><br/><span>QQGroup: 780653172  </span></p></blockquote><h2><a name="introduction" class="md-header-anchor"></a><span>Introduction</span></h2><blockquote><p><span>MuqiuEmacs是个模块化的，精简的Emacs配置</span></p></blockquote><ul><li><p><span>启动页 : dashboard/default/none  </span></p></li><li><p><span>文件树 : treemacs/neotree/speedbar/dired  </span></p></li><li><p><span>主题界面 : doom-themes  </span></p></li><li><p><span>状态栏 : doom-modeline/powerline/default  </span></p></li><li><p><span>邮件收发 : gnus  </span></p></li><li><p><span>语言支持 : C/C++/Python/CommonLisp/Hylang/Markdown/Web(HTML/CSS/JavaScript) __</span></p><ul><li><span>即将支持: Clojure/Java/Rust</span></li></ul></li></ul><hr /><h2><a name="更新信息" class="md-header-anchor"></a><span>更新信息</span></h2><ol start='' ><li><span>更新C/C++补全为LSP</span></li><li><span>更新markdown模式</span></li></ol><p>&nbsp;</p><h2><a name="安装" class="md-header-anchor"></a><span>安装</span></h2><h5><a name="muqiuemacs-20212233" class="md-header-anchor"></a><span>MuqiuEmacs 2021.2.23.3</span></h5><p><a href='https://1drv.ms/u/s!Ap94NCaT_B5skHvoH5RfJpTnJ6Bj?e=k7H5RM'><span>MuqiuEmacs2021.2.23.3 download</span></a></p><h2><a name="语言支持" class="md-header-anchor"></a><span>语言支持</span></h2><h3><a name="markdown" class="md-header-anchor"></a><span>Markdown</span></h3><blockquote><p><span>打开markdown文件进入markdown模式</span></p></blockquote><ul><li><span>打开另一个buffer预览markdown: </span><code>C-c p</code></li></ul><h3><a name="hylang" class="md-header-anchor"></a><span>Hylang</span></h3><blockquote><p><span>需要pip install jedhy后使用</span></p></blockquote><ul><li><span>打开Hy-shell: </span><code>M-RET</code></li><li><span>执行当前buffer: </span><code>C-c b</code></li><li><span>执行选中的语句: </span><code>C-r c</code></li></ul><h3><a name="commonlisp" class="md-header-anchor"></a><span>CommonLisp</span></h3><h4><a name="slime" class="md-header-anchor"></a><span>slime</span></h4><blockquote><p><span>在使用之前需要在操作系统中安装slime</span></p></blockquote><ul><li><span>加载当前文件: </span><code>C-c l</code></li><li><span>编译当前文件: </span><code>C-c c</code></li></ul><h3><a name="python" class="md-header-anchor"></a><span>Python</span></h3><blockquote><p><span>在使用Python之前，要需pip install jedi elpy rope pylint</span></p></blockquote><h4><a name="补全" class="md-header-anchor"></a><span>补全</span></h4><ul><li><span>补全后端使用anaconda</span></li><li><span>自动扩展: </span><code>C-c k</code></li></ul><blockquote><p><span>例如: 输入for, 摁下快捷键后自动补全for形式</span></p></blockquote><ul><li><span>重构工具: </span><code>C-c o</code><span> </span></li></ul><blockquote><p><span>例如: 选中字符串后，摁下快捷键选中当前文件中所有这个字符串</span></p></blockquote><ul><li><span>语法检查flycheck</span></li></ul><h3><a name="java" class="md-header-anchor"></a><span>Java</span></h3><h4><a name="补全-n80" class="md-header-anchor"></a><span>补全</span></h4><ul><li><span>lsp-java</span></li><li><span>lsp-javacomp</span></li></ul><p><span>注意: 在使用之前需要执行: (lsp-javacomp-install-server)</span></p><h3><a name="cc" class="md-header-anchor"></a><span>C/C++</span></h3><h4><a name="语法检查" class="md-header-anchor"></a><span>语法检查</span></h4><ul><li><span>flycheck</span></li></ul><h4><a name="补全-n92" class="md-header-anchor"></a><span>补全</span></h4><ul><li><span>ccls</span></li><li><span>company-lsp</span></li></ul><h4><a name="gtags" class="md-header-anchor"></a><span>gtags</span></h4><h5><a name="依赖" class="md-header-anchor"></a><span>依赖</span></h5><blockquote><p><span>在使用gtags之前，系统需要有这些软件包</span></p></blockquote><ul><li><span>global</span></li><li><span>ggtags</span></li></ul><blockquote><p><span>在使用gtags之前，需要在你的工程目录下面执行gtags命令，生成三个文件: GPATH GRTAGS GTAGS</span></p></blockquote><h5><a name="使用方法" class="md-header-anchor"></a><span>使用方法</span></h5><ol start='' ><li><span>从调用一个函数的地方跳转到函数的定义的地方</span>
 <code>M-x ggtags-find-definition</code>
-对应的快捷键： <code>M-</code></p></li>
-<li><p>从调用一个函数的地方跳转到函数的定义的地方后，返回到调用函数的地方
- <code>M-x ggtags-prev-mark</code>
- 对应的快捷键： <code>M-,</code></p></li>
-<li><p>或是反过来从函数定义的地方列出所有调用这个函数的地方
+<span>对应的快捷键： </span><code>M-</code></li><li><span>从调用一个函数的地方跳转到函数的定义的地方后，返回到调用函数的地方</span>
+<code>M-x ggtags-prev-mark</code>
+<span>对应的快捷键： </span><code>M-,</code></li><li><span>或是反过来从函数定义的地方列出所有调用这个函数的地方</span>
 <code>M-x ggtags-find-reference</code>
-对应的快捷键： <code>M-]</code></p></li>
-<li><p>查看导航过的历史记录
+<span>对应的快捷键： </span><code>M-]</code></li><li><span>查看导航过的历史记录</span>
 <code>M-x ggtags-view-tag-history</code>
-对应的快捷键： <code>C-c M-h</code></p></li>
-<li><p>更多的帮助可以使用 <code>man gtags</code> 查看</p></li>
-</ol>
-
-
-<h4>GDB的配置</h4>
-
-<ul>
-<li>F5: make自动编译程序</li>
-<li>F7: 进行GDB调试</li>
-<li>F9: 设置断点</li>
-<li>C-F9: 删除断线</li>
-<li>C-F5: 执行程序</li>
-<li>F10: 单步执行</li>
-<li>F11: 单步执行(进入函数)</li>
-<li>C-F10: 重复执行光标位置语句(util)</li>
-<li>C-F11: 跳出当前函数</li>
-<li>Shift-F10: jump到光标位置，下一次从光标位置执行</li>
-<li>Shift-F5: 继续执行程序</li>
-<li>F8 : 输出变量的值</li>
-<li>C-F8: 打印指针对应值</li>
-</ul>
-
-
-<h3>Web</h3>
-
-<ul>
-<li>emmet-mode
-
-<ul>
-<li>emmet生成html: <code>C-j</code></li>
-</ul>
-</li>
-<li>web-mode</li>
-</ul>
-
-
-<h2>其他插件</h2>
-
-<h3>youdao-dictionary</h3>
-
-<blockquote><p>使用有道翻译选中的单词
-+ 选中字符串后，翻译快捷键: <code>C-q</code></p></blockquote>
-
-<h3>window-numbering</h3>
-
-<blockquote><p><code>M-(1~9)</code> 跳转到窗口序号对应的窗口</p></blockquote>
-
-<h3>highlight-parentheses</h3>
-
-<ul>
-<li>括号高亮匹配</li>
-<li>默认全局启用</li>
-</ul>
-
-
-<h3>highlight-indent-guides-mode</h3>
-
-<ul>
-<li>缩进线显示</li>
-<li>highlight-indent-guides-method控制显示，默认为竖线</li>
-</ul>
-
-
-<h2>常见问题</h2>
-
-<h3>all-the-icons</h3>
-
-<blockquote><p>在大部分情况下, 用户使用all-the-icons-install-fonts会出现链接错误的情况, 这种情况下, 我给出如下解决方法</p></blockquote>
-
-<ul>
-<li><p>Arch系用户:
-yay或者yaourt -Syyu ttf-all-the-icons</p></li>
-<li><p>其他:
-查看MuqiuEmacs的res文件夹，里面有ttf文件</p></li>
-</ul>
-
-
-<hr />
-
-<p>如上。</p>
-
+<span>对应的快捷键： </span><code>C-c M-h</code></li><li><span>更多的帮助可以使用 </span><code>man gtags</code><span> 查看</span></li></ol><h4><a name="gdb的配置" class="md-header-anchor"></a><span>GDB的配置</span></h4><ul><li><span>F5: make自动编译程序</span></li><li><span>F7: 进行GDB调试</span></li><li><span>F9: 设置断点</span></li><li><span>C-F9: 删除断线</span></li><li><span>C-F5: 执行程序</span></li><li><span>F10: 单步执行</span></li><li><span>F11: 单步执行(进入函数)</span></li><li><span>C-F10: 重复执行光标位置语句(util)</span></li><li><span>C-F11: 跳出当前函数</span></li><li><span>Shift-F10: jump到光标位置，下一次从光标位置执行</span></li><li><span>Shift-F5: 继续执行程序</span></li><li><span>F8 : 输出变量的值</span></li><li><span>C-F8: 打印指针对应值</span></li></ul><h3><a name="web" class="md-header-anchor"></a><span>Web</span></h3><ul><li><p><span>emmet-mode</span></p><ul><li><span>emmet生成html: </span><code>C-j</code></li></ul></li><li><p><span>web-mode</span></p></li></ul><h2><a name="其他插件" class="md-header-anchor"></a><span>其他插件</span></h2><h3><a name="youdao-dictionary" class="md-header-anchor"></a><span>youdao-dictionary</span></h3><blockquote><p><span>使用有道翻译选中的单词</span></p></blockquote><ul><li><span>选中字符串后，翻译快捷键: </span><code>C-q</code></li></ul><h3><a name="window-numbering" class="md-header-anchor"></a><span>window-numbering</span></h3><blockquote><p><code>M-(1~9)</code><span> 跳转到窗口序号对应的窗口</span></p></blockquote><h3><a name="highlight-parentheses" class="md-header-anchor"></a><span>highlight-parentheses</span></h3><ul><li><span>括号高亮匹配</span></li><li><span>默认全局启用</span></li></ul><h3><a name="highlight-indent-guides-mode" class="md-header-anchor"></a><span>highlight-indent-guides-mode</span></h3><ul><li><span>缩进线显示</span></li><li><span>highlight-indent-guides-method控制显示，默认为竖线</span></li></ul><h2><a name="常见问题" class="md-header-anchor"></a><span>常见问题</span></h2><h3><a name="all-the-icons" class="md-header-anchor"></a><span>all-the-icons</span></h3><blockquote><p><span>在大部分情况下, 用户使用all-the-icons-install-fonts会出现链接错误的情况, 这种情况下, 我给出如下解决方法</span></p></blockquote><ul><li><span>Arch系用户: </span>
+<span>yay或者yaourt -Syyu ttf-all-the-icons</span></li><li><span>其他:</span>
+<span>查看MuqiuEmacs的res文件夹，里面有ttf文件</span></li></ul><hr /><p><span>如上。</span></p></div>
 </body>
 </html>
