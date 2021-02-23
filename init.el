@@ -15,7 +15,7 @@
  '(global-display-line-numbers-mode t)
  '(menu-bar-mode nil)
  '(package-selected-packages
-   '(tide js2-mode zencoding-mode ## meghanada newlisp-mode comint-hyperlink racket-mode expand-region clj-refactor monroe aggressive-indent paredit cider easy-kill clojure-mode slime-company slime org-preview-html flash-region ccls lsp-ui all-the-icons-ibuffer web-mode emmet-mode common-lisp-snippets iedit jedi company-anaconda yasnippet-snippets gtags flycheck elpy company-jedi lsp-javacomp global-tags ggtags company nil package-name))
+   '(company-racer cargo flycheck-rust racer tide js2-mode zencoding-mode ## meghanada newlisp-mode comint-hyperlink racket-mode expand-region clj-refactor monroe aggressive-indent paredit cider easy-kill clojure-mode slime-company slime org-preview-html flash-region ccls lsp-ui all-the-icons-ibuffer web-mode emmet-mode common-lisp-snippets iedit jedi company-anaconda yasnippet-snippets gtags flycheck elpy company-jedi lsp-javacomp global-tags ggtags company nil package-name))
  '(scroll-bar-mode nil)
  '(size-indication-mode t)
  '(tool-bar-mode nil)
@@ -53,7 +53,7 @@
 
 ;; 主题配置
 (defconst theme 'doom-horizon)
-(defconst font "Fira Code 13") ;; 字体名 字体大小
+(defconst font "Hack 13") ;; 字体名 字体大小
 (defconst is-highline t) ;; 是否高亮当前行
 (defconst line-height 2) ;; 行高
 

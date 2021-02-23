@@ -33,3 +33,4 @@
 (load "~/.emacs.d/config/newlisp/config.el")
 (load "~/.emacs.d/config/terminal/config.el")
 (load "~/.emacs.d/config/markdown/config.el")
+(load "~/.emacs.d/config/rust/config.el")

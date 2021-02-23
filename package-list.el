@@ -5,12 +5,15 @@
                       'aggressive-indent
 		      ;; B
 		      ;; C
+                      'cargo
                       'cider
                       'clojure-mode
                       'clj-refactor
 		      'company
+                      'company-racer
 		      'company-jedi
 		      'company-anaconda
+                      'company-racer
 		      'company-lsp
 		      'common-lisp-snippets
 		      'ccls
@@ -25,6 +28,7 @@
 		      'elpy
 		      'emmet-mode
 		      ;; F
+                      'flycheck-rust
 		      'flycheck
 		      ;; G
 		      'ggtags
@@ -56,6 +60,8 @@
 		      'powerline
 		      ;; Q
 		      ;; R
+                      'racer
+                      'rust-mode
                       'racket-mode
 		      ;; S
 		      'slime
