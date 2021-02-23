@@ -234,8 +234,7 @@ class Base(object):
         next_sib = self.next_sibling
         if next_sib is None:
             return ""
-        prefix = next_sib.prefix
-        return prefix
+        return next_sib.prefix
 
 
 class Node(Base):
@@ -270,10 +269,7 @@ class Node(Base):
         self.invalidate_sibling_maps()
         if prefix is not None:
             self.prefix = prefix
-        if fixers_applied:
-            self.fixers_applied = fixers_applied[:]
-        else:
-            self.fixers_applied = None
+        self.fixers_applied = fixers_applied[:] if fixers_applied else None
 
     def __repr__(self) -> Text:
         """Return a canonical string representation."""
@@ -484,15 +480,15 @@ def convert(gr: Grammar, raw_node: RawNode) -> NL:
     strictly bottom-up.
     """
     type, value, context, children = raw_node
-    if children or type in gr.number2symbol:
-        # If there's exactly one child, return that child instead of
-        # creating a new node.
-        assert children is not None
-        if len(children) == 1:
-            return children[0]
-        return Node(type, children, context=context)
-    else:
+    if not children and type not in gr.number2symbol:
         return Leaf(type, value or "", context=context)
+
+    # If there's exactly one child, return that child instead of
+    # creating a new node.
+    assert children is not None
+    if len(children) == 1:
+        return children[0]
+    return Node(type, children, context=context)
 
 
 _Results = Dict[Text, NL]
@@ -698,10 +694,10 @@ class NodePattern(BasePattern):
             return False
         if len(self.content) != len(node.children):
             return False
-        for subpattern, child in zip(self.content, node.children):
-            if not subpattern.match(child, results):
-                return False
-        return True
+        return all(
+            subpattern.match(child, results)
+            for subpattern, child in zip(self.content, node.children)
+        )
 
 
 class WildcardPattern(BasePattern):
@@ -856,7 +852,7 @@ class WildcardPattern(BasePattern):
     def _iterative_matches(self, nodes) -> Iterator[Tuple[int, _Results]]:
         """Helper to iteratively yield the matches."""
         nodelen = len(nodes)
-        if 0 >= self.min:
+        if self.min <= 0:
             yield 0, {}
 
         results = []

@@ -72,7 +72,7 @@ def maybe(*choices):
 
 
 def _combinations(*l):
-    return set(x + y for x in l for y in l + ("",) if x.casefold() != y.casefold())
+    return {x + y for x in l for y in l + ("",) if x.casefold() != y.casefold()}
 
 
 Whitespace = r"[ \f\t]*"
@@ -471,7 +471,7 @@ def generate_tokens(
                 contline = None
                 continue
             else:
-                contstr = contstr + line
+                contstr += line
                 contline = contline + line
                 continue
 
@@ -481,14 +481,14 @@ def generate_tokens(
             column = 0
             while pos < max:  # measure leading whitespace
                 if line[pos] == " ":
-                    column = column + 1
+                    column += 1
                 elif line[pos] == "\t":
                     column = (column // tabsize + 1) * tabsize
                 elif line[pos] == "\f":
                     column = 0
                 else:
                     break
-                pos = pos + 1
+                pos += 1
             if pos == max:
                 break
 
@@ -606,37 +606,42 @@ def generate_tokens(
                             stashed = None
                         yield (STRING, token, spos, epos, line)
                 elif initial.isidentifier():  # ordinary name
-                    if token in ("async", "await"):
-                        if async_keywords or async_def:
-                            yield (
-                                ASYNC if token == "async" else AWAIT,
-                                token,
-                                spos,
-                                epos,
-                                line,
-                            )
-                            continue
+                    if token in ("async", "await") and (
+                        async_keywords or async_def
+                    ):
+                        yield (
+                            ASYNC if token == "async" else AWAIT,
+                            token,
+                            spos,
+                            epos,
+                            line,
+                        )
+                        continue
 
                     tok = (NAME, token, spos, epos, line)
                     if token == "async" and not stashed:
                         stashed = tok
                         continue
 
-                    if token in ("def", "for"):
-                        if stashed and stashed[0] == NAME and stashed[1] == "async":
+                    if (
+                        token in ("def", "for")
+                        and stashed
+                        and stashed[0] == NAME
+                        and stashed[1] == "async"
+                    ):
 
-                            if token == "def":
-                                async_def = True
-                                async_def_indent = indents[-1]
+                        if token == "def":
+                            async_def = True
+                            async_def_indent = indents[-1]
 
-                            yield (
-                                ASYNC,
-                                stashed[1],
-                                stashed[2],
-                                stashed[3],
-                                stashed[4],
-                            )
-                            stashed = None
+                        yield (
+                            ASYNC,
+                            stashed[1],
+                            stashed[2],
+                            stashed[3],
+                            stashed[4],
+                        )
+                        stashed = None
 
                     if stashed:
                         yield stashed
@@ -667,7 +672,7 @@ def generate_tokens(
         yield stashed
         stashed = None
 
-    for indent in indents[1:]:  # pop remaining indent levels
+    for _ in indents[1:]:  # pop remaining indent levels
         yield (DEDENT, "", (lnum, 0), (lnum, 0), "")
     yield (ENDMARKER, "", (lnum, 0), (lnum, 0), "")
 
