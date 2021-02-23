@@ -15,7 +15,7 @@
  '(global-display-line-numbers-mode t)
  '(menu-bar-mode nil)
  '(package-selected-packages
-   '(flash-region ccls lsp-ui all-the-icons-ibuffer web-mode emmet-mode common-lisp-snippets slime iedit jedi company-anaconda yasnippet-snippets gtags flycheck elpy company-jedi lsp-javacomp global-tags ggtags company nil package-name))
+   '(org-preview-html flash-region ccls lsp-ui all-the-icons-ibuffer web-mode emmet-mode common-lisp-snippets slime iedit jedi company-anaconda yasnippet-snippets gtags flycheck elpy company-jedi lsp-javacomp global-tags ggtags company nil package-name))
  '(scroll-bar-mode nil)
  '(size-indication-mode t)
  '(tool-bar-mode nil)

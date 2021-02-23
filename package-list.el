@@ -39,6 +39,7 @@
 		      ;; N
 		      'neotree
 		      ;; O
+		      'org-preview-html
 		      ;; P
 		      'powerline
 		      ;; Q
