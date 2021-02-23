@@ -19,4 +19,4 @@
 ;; youdao
 (require 'youdao-dictionary)
 (setq url-automatic-caching t)
-(global-set-key (kbd "C-q") 'youdao-dictionary-search-at-point+)
+(global-set-key (kbd youdao-dictionary-key) 'youdao-dictionary-search-at-point+)

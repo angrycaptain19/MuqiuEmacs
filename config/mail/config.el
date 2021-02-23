@@ -6,3 +6,5 @@
       message-send-mail-function 'smtpmail-send-it
       smtpmail-smtp-server "smtp.office365.com")  ;; smtp服务器
 (all-the-icons-gnus-setup)
+
+(global-set-key (kbd gnus-key) 'gnus)

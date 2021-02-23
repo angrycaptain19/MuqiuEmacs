@@ -5,6 +5,10 @@
 
 (add-hook 'dired-mode-hook 'all-the-icons-dired-mode)
 
+(setq-default indent-tabs-mode nil)
+(setq line-spacing line-height)
+(global-hl-line-mode is-highline)
+
 (when start-frame-maximized
   (screen-maximized))
 

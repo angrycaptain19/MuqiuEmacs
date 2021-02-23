@@ -2,19 +2,26 @@
 		      ;; A
 		      'all-the-icons-dired
 		      'all-the-icons-gnus
+                      'aggressive-indent
 		      ;; B
 		      ;; C
+                      'cider
+                      'clojure-mode
+                      'clj-refactor
 		      'company
 		      'company-jedi
 		      'company-anaconda
 		      'company-lsp
 		      'common-lisp-snippets
 		      'ccls
+                      'comint-hyperlink
 		      ;; D
 		      'dashboard
 		      'doom-modeline
 		      'doom-themes
 		      ;; E
+                      'expand-region
+                      'easy-kill
 		      'elpy
 		      'emmet-mode
 		      ;; F
@@ -28,6 +35,7 @@
 		      ;; I
 		      'iedit
 		      ;; J
+                      'js2-mode
 		      'jedi
 		      ;; K
 		      ;; L
@@ -36,17 +44,24 @@
 		      'lsp-javacomp
 		      ;; M
 		      'magit
+                      'meghanada
+                      'monroe
 		      ;; N
 		      'neotree
+                      'newlisp-mode
 		      ;; O
 		      'org-preview-html
 		      ;; P
+                      'paredit
 		      'powerline
 		      ;; Q
 		      ;; R
+                      'racket-mode
 		      ;; S
 		      'slime
+                      'slime-company
 		      ;; T
+                      'tide
 		      'treemacs
 		      ;; U
 		      'use-package
@@ -60,4 +75,5 @@
 		      'youdao-dictionary
 		      'yasnippet-snippets
 		      ;; Z
+                      'zencoding-mode
 		      ))

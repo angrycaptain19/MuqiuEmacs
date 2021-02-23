@@ -5,5 +5,6 @@
 (slime-setup '(slime-fancy))
 (add-hook 'lisp-mode slime-mode)
 
+(define-key lisp-mode-map (kbd "\C-cs") 'slime)
 (define-key slime-mode-map (kbd "\C-cl") 'slime-load-file)
 (define-key slime-mode-map (kbd "\C-cc") 'slime-compile-file)
