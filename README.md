@@ -40,7 +40,19 @@
 
 +++
 
+### 下载
 
+#### git
+
+```
+git clone https://gitee.com/muqiu-han/MuqiuEmacs ~/.emacs.d --depth=1 
+```
+
+
+
+#### package
+
+1. 链接: [https://pan.baidu.com/s/1V3y9DOsTIqi6y19lUr2sWA](https://pan.baidu.com/s/1V3y9DOsTIqi6y19lUr2sWA) 提取码: y3b9
 
 ### 一些有用的插件
 
